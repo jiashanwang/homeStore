@@ -62,6 +62,14 @@
                 "enablePullDownRefresh": false,
 				"navigationStyle": "custom"
             }
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
             
         }
     ],

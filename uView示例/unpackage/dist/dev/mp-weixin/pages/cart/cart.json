@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box"
+  }
+}

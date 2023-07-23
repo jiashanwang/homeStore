@@ -229,6 +229,16 @@ var _default = {
     this.getMenuItemTop();
   },
   methods: {
+    // 进入购物车
+    goToCardDetail: function goToCardDetail(item) {
+      debugger;
+      this.$u.route({
+        url: "/pages/cart/cart",
+        params: {
+          orderData: encodeURIComponent(JSON.stringify(item))
+        }
+      });
+    },
     // 点击左边的栏目切换
     swichMenu: function swichMenu(index) {
       var _this = this;

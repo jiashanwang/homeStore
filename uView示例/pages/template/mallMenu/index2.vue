@@ -21,7 +21,7 @@
 							<text>{{item.name}}</text>
 						</view>
 						<view class="item-container">
-							<view class="thumb-box" v-for="(item1, index1) in item.foods" :key="index1">
+							<view class="thumb-box" v-for="(item1, index1) in item.foods" :key="index1" @tap="goToCardDetail(item1)">
 								<image class="item-menu-image" :src="item1.icon" mode=""></image>
 								<view class="item-menu-name">{{item1.name}}</view>
 							</view>
@@ -58,6 +58,16 @@
 			this.getMenuItemTop()
 		},
 		methods: {
+			// 进入购物车
+			goToCardDetail(item){
+				debugger
+				this.$u.route({
+					url:"/pages/cart/cart",
+					params:{
+						orderData:encodeURIComponent(JSON.stringify(item))
+					}
+				})
+			},
 			// 点击左边的栏目切换
 			async swichMenu(index) {
 				if(this.arr.length == 0) {
