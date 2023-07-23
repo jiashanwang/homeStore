@@ -15,7 +15,8 @@
 		{
 			"path": "pages/template/mallMenu/index2",
 			"style": {
-				"navigationBarTitleText": "商城首页"
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
 			}
 		},
 		// 演示-工具
@@ -57,8 +58,9 @@
             "path" : "pages/my/my",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "个人中心",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
             }
             
         }
@@ -250,12 +252,12 @@
 				// 	}
 				// },
 				// mallMenu商城分类
-				{
-					"path": "mallMenu/index2",
-					"style": {
-						"navigationBarTitleText": "mallMenu-商城分类"
-					}
-				},
+				// {
+				// 	"path": "mallMenu/index2",
+				// 	"style": {
+				// 		"navigationBarTitleText": "mallMenu-商城分类"
+				// 	}
+				// },
 				// mallMenu商城分类
 				{
 					"path": "mallMenu/index1",
@@ -308,7 +310,8 @@
 				{
 					"path": "order/index",
 					"style": {
-						"navigationBarTitleText": "订单"
+						"navigationBarTitleText": "",
+						"navigationStyle": "custom"
 					}
 				},
 				// login登录获取验证码
