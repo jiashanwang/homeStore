@@ -12,7 +12,8 @@
 				<view class="u-font-xs u-text-center noactive u-font-md">{{ nickName }}</view>
 			</view>
 		</view>
-		<view class="line-operate"></view>
+		<!-- <view class="line-operate"></view> -->
+		<u-gap height="8" bg-color="#f4f4f5"></u-gap>
 		<view class="u-config-wrap">
 			<view class="u-margin-top-50 u-margin-bottom-26 u-margin-left-20 u-font-md">
 				我的订单
@@ -37,7 +38,8 @@
 				<view class="order-types u-font-sm">待评价</view>
 			</view>
 		</view>
-		<view class="line-operate-mid"></view>
+		<!-- <view class="line-operate-mid"></view> -->
+		<u-gap height="10" bg-color="#f4f4f5"></u-gap>
 		<view class="u-config-wrap">
 			<view class="u-margin-top-50 u-margin-bottom-26 u-margin-left-20 u-font-md">
 				个人中心
@@ -123,5 +125,8 @@
 	}
 	.order-types{
 		color:$u-content-color;
+	}
+	.u-cell_title::v-deep{
+		margin-left:18rpx!important;
 	}
 </style>

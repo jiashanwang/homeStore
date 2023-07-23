@@ -8,8 +8,8 @@
 	      </view>
 	      <view class="product-desc">
 	        <view class="name">{{orderData.name}}</view>
-	        <!-- <view class="face-value">面值：{{orderData.currSeletedItem.amount}}元</view> -->
-	        <view class="price">{{orderData.name}} 积分</view>
+	        <view class="face-value">价格：{{orderData.amount}}元</view>
+	        <!-- <view class="price">{{orderData.name}} </view> -->
 	      </view>
 	    </view>
 	    <view class="notice-desc">支持 7 天无理由退换货</view>
@@ -23,22 +23,42 @@
 		  <u-number-box v-model="buyNum" @minus="minusClick" @plus="plusClick" :step="1" :min="1" :max="100" :size="26"></u-number-box>
 	    </view>
 	  </view>
-	  <view class="line-operate-mid"></view>
+	  <!-- <view class="line-operate-mid"></view> -->
+	  <u-gap height="10" bg-color="#f4f4f5"></u-gap>
+	  <view class="buy-title pay-box u-font-34 u-padding-24">支付方式</view>
+	  <view class="u-flex u-row-left pay-type u-padding-bottom-24">
+		  <view>
+			<u-radio-group v-model="value" @change="radioGroupChange">
+				<u-radio 
+					@change="radioChange" 
+					v-for="(item, index) in list" :key="index" 
+					:name="item.name"
+					:disabled="item.disabled"
+					active-color="#19be6b"
+					width="30%"
+				>
+					{{item.name}}
+				</u-radio>
+			</u-radio-group>
+		  </view>
+	  </view>
+	  <u-gap height="10" bg-color="#f4f4f5"></u-gap>
 	 <view class="total-wrap product-total">
 	    <view class="title">商品合计</view>
 	    <view class="total-style">¥ {{totalPrice}}</view>
 	  </view>
 	  <view class="total-wrap">
-	    <view class="title">服务费</view>
-	    <view class="total-style">¥ {{chargePrice}}</view>
+	    <view class="title">配送费</view>
+	    <view class="total-style u-font-12">包邮到家</view>
 	  </view>
 	  <view class="footer-wrap">
 	    <view class="left-box">
 	      <view class="total-num">共 {{buyNum}} 件,</view>
-	      <view class="total-money">合计 <i class="price-style">¥ {{totalPrice + chargePrice}}</i></view>
+	      <view class="total-money">合计 <i class="price-style">¥ {{totalPrice}}</i></view>
 	    </view>
-	    <view class="buy-btn" bindtap="exchangePay">立即兑换</view>
+	    <view class="buy-btn" bindtap="exchangePay">立即支付</view>
 	  </view>
+	  <u-toast ref="uToast" />
 	</view>
 </template>
 
@@ -50,22 +70,48 @@
 				orderData:{},
 				buyNum:0,
 				totalPrice:0,
-				chargePrice:0
+				list: [
+					{
+						name: '微信',
+						disabled: false
+					},
+					{
+						name: '支付宝',
+						disabled: false
+					}
+				],
+				value: '微信',
 			}
 		},
 		onLoad(option){
-			console.log("接收到的option2== ",JSON.parse(decodeURIComponent(option.orderData)));
+			debugger;
 			this.orderData = JSON.parse(decodeURIComponent(option.orderData));
 		},
 		methods: {
+			radioGroupChange(value){
+				debugger
+			},
+			radioChange(value){
+				debugger
+			},
+			exchangePay(){
+				this.$refs.uToast.show({
+									title: '登录成功',
+									type: 'success',
+									url: '/pages/template/mallMenu/index2'
+								})
+			},
 			// 购买数量加事件
 			plusClick(data){
+				
 				console.log(data)
 				this.buyNum = data.value;
+				this.totalPrice = data.value * this.orderData.amount;
 			},
 			// 购买数量减事件
 			minusClick(data){
 				this.buyNum = data.value;
+				this.totalPrice = data.value * this.orderData.amount;
 			},
 			
 		}
@@ -193,6 +239,13 @@
   height:140rpx;
   font-size:32rpx;
 }
+.pay-type{
+	padding:0 24rpx;
+	background-color: #ffffff;
+	.u-radio{
+		margin-right:50rpx;
+	}
+}
 .left-box{
   display: flex;
   justify-content: flex-start;
@@ -200,7 +253,6 @@
   flex:1;  
 }
 .price-style,.total-style{
-  font-size:34rpx;
   color:#eb8013;
   width:100rpx;
   margin-left:10rpx;
@@ -223,4 +275,10 @@
 .total-num{
   margin-right:20rpx;
 }
+.pay-box{
+	background-color: #ffffff;
+}
+// .pay-type .u-radio{
+// 	margin-right:50rpx;
+// }
 </style>

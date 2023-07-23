@@ -58,6 +58,12 @@
 			this.getMenuItemTop()
 		},
 		methods: {
+			getRandom(){
+				const min = 50;
+				const max = 200;
+				var res = Math.floor(min+Math.random()*(max-min));
+				return res;
+			},
 			// 进入购物车
 			goToCardDetail(item){
 				debugger
