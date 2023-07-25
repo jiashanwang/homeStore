@@ -2,9 +2,9 @@
 	<view class="wrap">
 		<view class="top"></view>
 		<view class="content">
-			<view class="title">欢迎登录美团</view>
+			<view class="title">欢迎登录</view>
 			<input class="u-border-bottom" type="number" v-model="tel" placeholder="请输入手机号" />
-			<view class="tips">未注册的手机号验证后自动创建美团账号</view>
+			<view class="tips">未注册的手机号验证后自动创建账号</view>
 			<button @tap="submit" :style="[inputStyle]" class="getCaptcha">获取短信验证码</button>
 			<view class="alternative">
 				<view class="password">密码登录</view>
@@ -24,10 +24,11 @@
 			</view>
 			<view class="hint">
 				登录代表同意
-				<text class="link">美团点评用户协议、隐私政策，</text>
-				并授权使用您的美团点评账号信息（如昵称、头像、收获地址）以便您统一管理
+				<text class="link">用户协议、隐私政策，</text>
+				并授权使用您的账号信息（如昵称、头像、收获地址）以便您统一管理
 			</view>
 		</view>
+		<u-toast ref="uToast" />
 	</view>
 </template>
 
@@ -50,9 +51,29 @@ export default {
 	},
 	methods: {
 		submit() {
+			if (!this.tel){
+				this.$refs.uToast.show({
+					title:"手机号码不能为空！",
+					type:"warning",
+				});
+				return ;
+			}else {
+				let phone = this.tel;
+				let reg = /^[1][3,4,5,6,7,8,9][0-9]{9}$/;
+				if (!reg.test(phone)) {
+				   this.$refs.uToast.show({
+				   	title:"请输入正确的手机号！",
+				   	type:"warning",
+				   });
+				   return ;
+				} 
+			}
 			if(this.$u.test.mobile(this.tel)) {
 				this.$u.route({
-					url: 'pages/template/login/code'
+					url: 'pages/template/login/code',
+					params:{
+						phone:encodeURIComponent(JSON.stringify(this.tel))
+					}
 				})
 			}
 		}

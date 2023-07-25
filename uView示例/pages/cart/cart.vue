@@ -56,7 +56,7 @@
 	      <view class="total-num">共 {{buyNum}} 件,</view>
 	      <view class="total-money">合计 <i class="price-style">¥ {{totalPrice}}</i></view>
 	    </view>
-	    <view class="buy-btn" bindtap="exchangePay">立即支付</view>
+	    <view class="buy-btn" @tap="exchangePay">立即支付</view>
 	  </view>
 	  <u-toast ref="uToast" />
 	</view>
@@ -66,9 +66,10 @@
 	export default {
 		data() {
 			return {
+				payType:"wxpay",
 				goodsUrl:"",
 				orderData:{},
-				buyNum:0,
+				buyNum:1,
 				totalPrice:0,
 				list: [
 					{
@@ -84,22 +85,22 @@
 			}
 		},
 		onLoad(option){
-			debugger;
 			this.orderData = JSON.parse(decodeURIComponent(option.orderData));
+			this.totalPrice = this.buyNum * this.orderData.amount;
 		},
 		methods: {
 			radioGroupChange(value){
-				debugger
+				this.payType = value=="微信"?"wxpay":"alipay";
 			},
 			radioChange(value){
-				debugger
+				this.payType = value=="微信"?"wxpay":"alipay";
 			},
 			exchangePay(){
 				this.$refs.uToast.show({
-									title: '登录成功',
-									type: 'success',
-									url: '/pages/template/mallMenu/index2'
-								})
+					title: "正在跳转" + this.value + "支付页面......",
+					type: 'success',
+					duration:2000
+				})
 			},
 			// 购买数量加事件
 			plusClick(data){

@@ -8,8 +8,9 @@
 					:src="src" 
 					:text="text"
 					:bgColor='bgColor'
+					@click="loginClick"
 				></u-avatar>
-				<view class="u-font-xs u-text-center noactive u-font-md">{{ nickName }}</view>
+				<view class="u-font-xs u-text-center noactive u-font-md" @tap="loginClick">{{ nickName }}</view>
 			</view>
 		</view>
 		<!-- <view class="line-operate"></view> -->
@@ -71,6 +72,7 @@
 				size: '90',
 				bgColor: '#fcbd71',
 				nickName:"立即登陆",
+				loginType:"unLogin",//unlogin 未登录
 				readyPayUrl:"../../static/uview/example/readyPay.png",
 				readySendUrl:"../../static/uview/example/readySend.png",
 				readyReceiveUrl:"../../static/uview/example/readyReceive.png",
@@ -78,6 +80,12 @@
 			}
 		},
 		methods: {
+			// 立即登录
+			loginClick(){
+				if (this.loginType == "unLogin"){
+					this.$u.route("/pages/template/login/index");
+				}
+			},
 			jumpToOrder(type){
 				this.$u.route("/pages/template/order/index",{type});
 			},
