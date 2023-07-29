@@ -4,6 +4,7 @@
   "navigationStyle": "custom",
   "usingComponents": {
     "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
     "u-line": "/uview-ui/components/u-line/u-line",
     "u-image": "/uview-ui/components/u-image/u-image",
     "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",

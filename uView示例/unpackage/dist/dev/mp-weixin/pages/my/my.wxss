@@ -44,4 +44,7 @@
 .order-types.data-v-0be17cc6 {
   color: #606266;
 }
+.u-cell_title.data-v-0be17cc6 {
+  margin-left: 18rpx !important;
+}
 

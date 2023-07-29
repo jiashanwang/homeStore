@@ -1,0 +1,274 @@
+/* #ifndef APP-NVUE */
+view,
+text {
+	box-sizing: border-box;
+}
+/* #endif */
+
+/* start--演示页面使用的统一样式--start */
+/*自定义全局样式 start */
+.u-flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.u-flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+// 子元素是否换行
+/* 换行 */
+.u-flex-wrap {
+	flex-wrap: wrap;
+}
+.u-flex-1{
+	flex:1;
+}
+.u-flex-2{
+	flex:2;
+}
+.u-flex-3{
+	flex:3;
+}
+/* 不换行 */
+.u-flex-nowrap {
+	flex-wrap: nowrap;
+}
+/* 左边对齐 */
+.u-row-left {
+	justify-content: flex-start;
+}
+
+/* 水平居中 */
+.u-row-center {
+	justify-content: center;
+}
+
+/* 右边对齐 */
+.u-row-right {
+	justify-content: flex-end;
+}
+
+/* 水平两端对齐，项目之间的间隔都相等 */
+.u-row-between {
+	justify-content: space-between;
+}
+
+/* 水平每个项目两侧的间隔相等，所以项目之间的间隔比项目与父元素两边的间隔大一倍 */
+.u-row-around {
+	justify-content: space-around;
+}
+/* 垂直居中 */
+.u-col-center {
+	align-items: center;
+}
+
+/* 顶部对齐 */
+.u-col-top {
+	align-items: flex-start;
+}
+
+/* 底部对齐 */
+.u-col-bottom {
+	align-items: flex-end;
+}
+/* 文字左对齐 */
+.u-text-left {
+	text-align: left;
+}
+
+/* 文字居中对齐 */
+.u-text-center {
+	text-align: center;
+}
+
+/* 文字右对齐 */
+.u-text-right {
+	text-align: right;
+}
+.u-margin-left-5{
+	margin-left:10rpx;
+}
+.u-margin-right-5{
+	margin-right:10rpx;
+}
+.u-margin-top-5{
+	margin-top:10rpx;
+}
+.u-margin-bottom-5{
+	margin-bottom:10rpx;
+}
+.u-margin-left-10{
+	margin-left:20rpx;
+}
+.u-margin-right-10{
+	margin-right:20rpx;
+}
+.u-margin-top-10{
+	margin-top:20rpx;
+}
+.u-margin-bottom-10{
+	margin-bottom:20rpx;
+}
+.u-margin-left-20{
+	margin-left:40rpx;
+}
+.u-margin-right-20{
+	margin-right:40rpx;
+}
+.u-margin-top-20{
+	margin-top:40rpx;
+}
+.u-margin-bottom-20{
+	margin-bottom:40rpx;
+}
+.u-padding-left-5{
+	padding-left:10rpx;
+}
+.u-padding-right-5{
+	padding-right:10rpx;
+}
+.u-padding-top-5{
+	padding-top:10rpx;
+}
+.u-padding-bottom-5{
+	padding-bottom:10rpx;
+}
+.u-padding-left-10{
+	padding-left:20rpx;
+}
+.u-padding-right-10{
+	padding-right:20rpx;
+}
+.u-padding-top-10{
+	padding-top:20rpx;
+}
+.u-padding-bottom-10{
+	padding-bottom:20rpx;
+}
+.u-padding-left-20{
+	padding-left:40rpx;
+}
+.u-padding-right-20{
+	padding-right:40rpx;
+}
+.u-padding-top-20{
+	padding-top:40rpx;
+}
+.u-padding-bottom-20{
+	padding-bottom:40rpx;
+}
+.margin-10{
+	margin:20rpx;
+}
+.margin-20{
+	margin:40rpx;
+}
+.padding-10{
+	padding:20rpx;
+}
+.padding-20{
+	padding:40rpx;
+}
+.u-font-xs {
+	font-size: 22rpx;
+}
+
+.u-font-sm {
+	font-size: 26rpx;
+}
+
+.u-font-md {
+	font-size: 28rpx;
+}
+
+.u-font-lg {
+	font-size: 30rpx;
+}
+
+.u-font-xl {
+	font-size: 34rpx;
+}
+/*自定义全局样式 end */
+
+.u-demo {
+	padding: 25px 20px;
+}
+
+.u-demo-wrap {
+	border-width: 1px;
+	border-color: #ddd;
+	border-style: dashed;
+	background-color: rgb(250, 250, 250);
+	padding: 20px 10px;
+	border-radius: 3px;
+}
+
+.u-demo-area {
+	text-align: center;
+}
+
+.u-no-demo-here {
+	color: $u-tips-color;
+	font-size: 13px;
+}
+
+.u-demo-result-line {
+	border-width: 1px;
+	border-color: #ddd;
+	border-style: dashed;
+	padding: 5px 20px;
+	margin-top: 30px;
+	border-radius: 5px;
+	background-color: rgb(240, 240, 240);
+	color: $u-content-color;
+	font-size: 16px;
+	/* #ifndef APP-NVUE */
+	word-break: break-word;
+	display: inline-block;
+	/* #endif */
+	text-align: left;
+	
+}
+
+.u-demo-title,
+.u-config-title {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.u-config-item {
+	margin-top: 25px;
+}
+
+.u-config-title {
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+
+.u-item-title {
+	position: relative;
+	font-size: 15px;
+	padding-left: 8px;
+	line-height: 1;
+	margin-bottom: 11px;
+}
+
+.u-item-title:after {
+	position: absolute;
+	width: 4px;
+	top: -1px;
+	height: 16px;
+	/* #ifndef APP-NVUE */
+	content: '';
+	/* #endif */
+	left: 0;
+	border-radius: 10px;
+	background-color: $u-content-color;
+}
+/* end--演示页面使用的统一样式--end */

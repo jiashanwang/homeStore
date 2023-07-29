@@ -1,6 +1,6 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/componentsA/common/vendor"],{
 
-/***/ 680:
+/***/ 688:
 /*!********************************************************************************************!*\
   !*** /Users/wangjiashan/Documents/HBuilderProjects/homeStore/uView示例/common/index.list.js ***!
   \********************************************************************************************/

@@ -101,7 +101,7 @@ var components
 try {
   components = {
     uIcon: function () {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-icon/u-icon */ "uview-ui/components/u-icon/u-icon").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-icon/u-icon.vue */ 971))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-icon/u-icon */ "uview-ui/components/u-icon/u-icon").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-icon/u-icon.vue */ 979))
     },
   }
 } catch (e) {
@@ -155,9 +155,287 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!/Users/wangjiashan/Documents/HBuilderProjects/homeStore/uView示例/pages/template/mallMenu/index2.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js):\nSyntaxError: Unexpected token (63:3)\n    at instantiate (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:67:32)\n    at constructor (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:364:12)\n    at TypeScriptParserMixin.raise (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:3365:19)\n    at TypeScriptParserMixin.unexpected (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:3398:16)\n    at TypeScriptParserMixin.parseExprAtom (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11568:22)\n    at TypeScriptParserMixin.parseExprSubscripts (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11171:23)\n    at TypeScriptParserMixin.parseUpdate (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11153:21)\n    at TypeScriptParserMixin.parseMaybeUnary (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11127:23)\n    at TypeScriptParserMixin.parseMaybeUnary (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9590:20)\n    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10956:61)\n    at TypeScriptParserMixin.parseExprOps (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10962:23)\n    at TypeScriptParserMixin.parseMaybeConditional (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10937:23)\n    at TypeScriptParserMixin.parseMaybeAssign (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10895:21)\n    at TypeScriptParserMixin.parseMaybeAssign (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9529:20)\n    at TypeScriptParserMixin.parseMaybeAssign (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10923:25)\n    at TypeScriptParserMixin.parseMaybeAssign (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9529:20)\n    at TypeScriptParserMixin.parseExpressionBase (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10845:23)\n    at /Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10840:39\n    at TypeScriptParserMixin.allowInAnd (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12635:16)\n    at TypeScriptParserMixin.parseExpression (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10840:17)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13096:23)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9223:18)\n    at TypeScriptParserMixin.parseStatementLike (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12952:17)\n    at TypeScriptParserMixin.parseStatementListItem (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12937:17)\n    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13558:61)\n    at TypeScriptParserMixin.parseBlockBody (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13550:10)\n    at TypeScriptParserMixin.parseBlock (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13538:10)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13046:21)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9223:18)\n    at TypeScriptParserMixin.parseStatementLike (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12952:17)\n    at TypeScriptParserMixin.parseStatement (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12944:17)\n    at /Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13593:10\n    at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12617:14)\n    at TypeScriptParserMixin.parseFor (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13592:10)\n    at TypeScriptParserMixin.parseForStatement (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13289:19)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12971:21)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9223:18)\n    at TypeScriptParserMixin.parseStatementLike (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12952:17)\n    at TypeScriptParserMixin.parseStatementListItem (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12937:17)\n    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13558:61)\n    at TypeScriptParserMixin.parseBlockBody (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13550:10)\n    at TypeScriptParserMixin.parseBlock (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13538:10)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13046:21)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9223:18)\n    at TypeScriptParserMixin.parseStatementLike (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12952:17)\n    at TypeScriptParserMixin.parseStatement (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12944:17)\n    at /Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13593:10\n    at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12617:14)\n    at TypeScriptParserMixin.parseFor (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13592:10)\n    at TypeScriptParserMixin.parseForStatement (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13289:19)");
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 41));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 43));
+var _classifyData = _interopRequireDefault(__webpack_require__(/*! @/common/classify.data.js */ 77));
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      scrollTop: 0,
+      //tab标题的滚动条位置
+      oldScrollTop: 0,
+      current: 0,
+      // 预设当前项的值
+      menuHeight: 0,
+      // 左边菜单的高度
+      menuItemHeight: 0,
+      // 左边菜单item的高度
+      itemId: '',
+      // 栏目右边scroll-view用于滚动的id
+      tabbar: _classifyData.default,
+      menuItemPos: [],
+      arr: [],
+      scrollRightTop: 0,
+      // 右边栏目scroll-view的滚动条高度
+      timer: null // 定时器
+    };
+  },
+  onLoad: function onLoad() {},
+  onReady: function onReady() {
+    this.getMenuItemTop();
+  },
+  methods: {
+    getRandom: function getRandom() {
+      var min = 50;
+      var max = 200;
+      var res = Math.floor(min + Math.random() * (max - min));
+      return res;
+    },
+    // 进入购物车
+    goToCardDetail: function goToCardDetail(item) {
+      debugger;
+      this.$u.route({
+        url: "/pages/cart/cart",
+        params: {
+          orderData: encodeURIComponent(JSON.stringify(item))
+        }
+      });
+    },
+    // 点击左边的栏目切换
+    swichMenu: function swichMenu(index) {
+      var _this = this;
+      return (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee() {
+        return _regenerator.default.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                if (!(_this.arr.length == 0)) {
+                  _context.next = 3;
+                  break;
+                }
+                _context.next = 3;
+                return _this.getMenuItemTop();
+              case 3:
+                if (!(index == _this.current)) {
+                  _context.next = 5;
+                  break;
+                }
+                return _context.abrupt("return");
+              case 5:
+                _this.scrollRightTop = _this.oldScrollTop;
+                _this.$nextTick(function () {
+                  this.scrollRightTop = this.arr[index];
+                  this.current = index;
+                  this.leftMenuStatus(index);
+                });
+              case 7:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    },
+    // 获取一个目标元素的高度
+    getElRect: function getElRect(elClass, dataVal) {
+      var _this2 = this;
+      new Promise(function (resolve, reject) {
+        var query = uni.createSelectorQuery().in(_this2);
+        query.select('.' + elClass).fields({
+          size: true
+        }, function (res) {
+          // 如果节点尚未生成，res值为null，循环调用执行
+          if (!res) {
+            setTimeout(function () {
+              _this2.getElRect(elClass);
+            }, 10);
+            return;
+          }
+          _this2[dataVal] = res.height;
+          resolve();
+        }).exec();
+      });
+    },
+    // 观测元素相交状态
+    observer: function observer() {
+      var _this3 = this;
+      return (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee2() {
+        return _regenerator.default.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _this3.tabbar.map(function (val, index) {
+                  var observer = uni.createIntersectionObserver(_this3);
+                  // 检测右边scroll-view的id为itemxx的元素与right-box的相交状态
+                  // 如果跟.right-box底部相交，就动态设置左边栏目的活动状态
+                  observer.relativeTo('.right-box', {
+                    top: 0
+                  }).observe('#item' + index, function (res) {
+                    if (res.intersectionRatio > 0) {
+                      var id = res.id.substring(4);
+                      _this3.leftMenuStatus(id);
+                    }
+                  });
+                });
+              case 1:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2);
+      }))();
+    },
+    // 设置左边菜单的滚动状态
+    leftMenuStatus: function leftMenuStatus(index) {
+      var _this4 = this;
+      return (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee3() {
+        return _regenerator.default.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                _this4.current = index;
+                // 如果为0，意味着尚未初始化
+                if (!(_this4.menuHeight == 0 || _this4.menuItemHeight == 0)) {
+                  _context3.next = 6;
+                  break;
+                }
+                _context3.next = 4;
+                return _this4.getElRect('menu-scroll-view', 'menuHeight');
+              case 4:
+                _context3.next = 6;
+                return _this4.getElRect('u-tab-item', 'menuItemHeight');
+              case 6:
+                // 将菜单活动item垂直居中
+                _this4.scrollTop = index * _this4.menuItemHeight + _this4.menuItemHeight / 2 - _this4.menuHeight / 2;
+              case 7:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3);
+      }))();
+    },
+    // 获取右边菜单每个item到顶部的距离
+    getMenuItemTop: function getMenuItemTop() {
+      var _this5 = this;
+      new Promise(function (resolve) {
+        var selectorQuery = uni.createSelectorQuery();
+        selectorQuery.selectAll('.class-item').boundingClientRect(function (rects) {
+          // 如果节点尚未生成，rects值为[](因为用selectAll，所以返回的是数组)，循环调用执行
+          if (!rects.length) {
+            setTimeout(function () {
+              _this5.getMenuItemTop();
+            }, 10);
+            return;
+          }
+          rects.forEach(function (rect) {
+            // 这里减去rects[0].top，是因为第一项顶部可能不是贴到导航栏(比如有个搜索框的情况)
+            _this5.arr.push(rect.top - rects[0].top);
+            resolve();
+          });
+        }).exec();
+      });
+    },
+    // 右边菜单滚动
+    rightScroll: function rightScroll(e) {
+      var _this6 = this;
+      return (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee4() {
+        return _regenerator.default.wrap(function _callee4$(_context4) {
+          while (1) {
+            switch (_context4.prev = _context4.next) {
+              case 0:
+                _this6.oldScrollTop = e.detail.scrollTop;
+                if (!(_this6.arr.length == 0)) {
+                  _context4.next = 4;
+                  break;
+                }
+                _context4.next = 4;
+                return _this6.getMenuItemTop();
+              case 4:
+                if (!_this6.timer) {
+                  _context4.next = 6;
+                  break;
+                }
+                return _context4.abrupt("return");
+              case 6:
+                if (_this6.menuHeight) {
+                  _context4.next = 9;
+                  break;
+                }
+                _context4.next = 9;
+                return _this6.getElRect('menu-scroll-view', 'menuHeight');
+              case 9:
+                setTimeout(function () {
+                  // 节流
+                  _this6.timer = null;
+                  // scrollHeight为右边菜单垂直中点位置
+                  var scrollHeight = e.detail.scrollTop + _this6.menuHeight / 2;
+                  for (var i = 0; i < _this6.arr.length; i++) {
+                    var height1 = _this6.arr[i];
+                    var height2 = _this6.arr[i + 1];
+                    // 如果不存在height2，意味着数据循环已经到了最后一个，设置左边菜单为最后一项即可
+                    if (!height2 || scrollHeight >= height1 && scrollHeight < height2) {
+                      _this6.leftMenuStatus(i);
+                      return;
+                    }
+                  }
+                }, 10);
+              case 10:
+              case "end":
+                return _context4.stop();
+            }
+          }
+        }, _callee4);
+      }))();
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
 
@@ -190,5 +468,5 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ })
 
-},[[71,"common/runtime","common/vendor"]]]);
+},[[71,"common/runtime","common/vendor","pages/template/common/vendor"]]]);
 //# sourceMappingURL=../../../../.sourcemap/mp-weixin/pages/template/mallMenu/index2.js.map

@@ -124,6 +124,13 @@
   height: 140rpx;
   font-size: 32rpx;
 }
+.pay-type.data-v-0f00adf4 {
+  padding: 0 24rpx;
+  background-color: #ffffff;
+}
+.pay-type .u-radio.data-v-0f00adf4 {
+  margin-right: 50rpx;
+}
 .left-box.data-v-0f00adf4 {
   display: flex;
   justify-content: flex-start;
@@ -131,7 +138,6 @@
   flex: 1;
 }
 .price-style.data-v-0f00adf4, .total-style.data-v-0f00adf4 {
-  font-size: 34rpx;
   color: #eb8013;
   width: 100rpx;
   margin-left: 10rpx;
@@ -153,5 +159,8 @@
 }
 .total-num.data-v-0f00adf4 {
   margin-right: 20rpx;
+}
+.pay-box.data-v-0f00adf4 {
+  background-color: #ffffff;
 }
 
