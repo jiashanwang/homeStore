@@ -123,11 +123,31 @@ page {
 }
 .swiper-box.data-v-127632e4 {
   flex: 1;
+  height: 100%;
 }
 .swiper-item.data-v-127632e4 {
   height: 100%;
 }
 .wrap.data-v-127632e4 {
   background-color: #ffffff;
+}
+.container.data-v-127632e4 {
+  height: 100%;
+}
+.bottom-btn.data-v-127632e4 {
+  padding: 0 5px;
+}
+.bottom-btn .btn.data-v-127632e4 {
+  line-height: 24px;
+  width: 70px;
+  border-radius: 13px;
+  border: 1px solid #e4e7ed;
+  font-size: 13px;
+  text-align: center;
+  color: #82848a;
+}
+.bottom-btn .evaluate.data-v-127632e4 {
+  color: #f29100;
+  border-color: #f29100;
 }
 

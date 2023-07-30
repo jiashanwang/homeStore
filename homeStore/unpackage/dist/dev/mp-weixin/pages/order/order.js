@@ -105,6 +105,12 @@ try {
     uTabs: function () {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-tabs/u-tabs */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-tabs/u-tabs")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-tabs/u-tabs.vue */ 291))
     },
+    uIcon: function () {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-icon/u-icon.vue */ 217))
+    },
+    uLoadmore: function () {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-loadmore/u-loadmore */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-loadmore/u-loadmore")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-loadmore/u-loadmore.vue */ 304))
+    },
   }
 } catch (e) {
   if (
@@ -127,6 +133,85 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
+  var l1 = _vm.__map(_vm.orderList[0], function (res, index) {
+    var $orig = _vm.__get_orig(res)
+    var l0 = _vm.__map(res.goodsList, function (item, index) {
+      var $orig = _vm.__get_orig(item)
+      var m0 = _vm.priceInt(item.price)
+      var m1 = _vm.priceDecimal(item.price)
+      return {
+        $orig: $orig,
+        m0: m0,
+        m1: m1,
+      }
+    })
+    var m2 = _vm.totalNum(res.goodsList)
+    var m3 = _vm.priceInt(_vm.totalPrice(res.goodsList))
+    var m4 = _vm.priceDecimal(_vm.totalPrice(res.goodsList))
+    return {
+      $orig: $orig,
+      l0: l0,
+      m2: m2,
+      m3: m3,
+      m4: m4,
+    }
+  })
+  var l3 = _vm.__map(_vm.orderList[1], function (res, index) {
+    var $orig = _vm.__get_orig(res)
+    var l2 = _vm.__map(res.goodsList, function (item, index) {
+      var $orig = _vm.__get_orig(item)
+      var m5 = _vm.priceInt(item.price)
+      var m6 = _vm.priceDecimal(item.price)
+      return {
+        $orig: $orig,
+        m5: m5,
+        m6: m6,
+      }
+    })
+    var m7 = _vm.totalNum(res.goodsList)
+    var m8 = _vm.priceInt(_vm.totalPrice(res.goodsList))
+    var m9 = _vm.priceDecimal(_vm.totalPrice(res.goodsList))
+    return {
+      $orig: $orig,
+      l2: l2,
+      m7: m7,
+      m8: m8,
+      m9: m9,
+    }
+  })
+  var l5 = _vm.__map(_vm.orderList[3], function (res, index) {
+    var $orig = _vm.__get_orig(res)
+    var l4 = _vm.__map(res.goodsList, function (item, index) {
+      var $orig = _vm.__get_orig(item)
+      var m10 = _vm.priceInt(item.price)
+      var m11 = _vm.priceDecimal(item.price)
+      return {
+        $orig: $orig,
+        m10: m10,
+        m11: m11,
+      }
+    })
+    var m12 = _vm.totalNum(res.goodsList)
+    var m13 = _vm.priceInt(_vm.totalPrice(res.goodsList))
+    var m14 = _vm.priceDecimal(_vm.totalPrice(res.goodsList))
+    return {
+      $orig: $orig,
+      l4: l4,
+      m12: m12,
+      m13: m13,
+      m14: m14,
+    }
+  })
+  _vm.$mp.data = Object.assign(
+    {},
+    {
+      $root: {
+        l1: l1,
+        l3: l3,
+        l5: l5,
+      },
+    }
+  )
 }
 var recyclableRender = false
 var staticRenderFns = []
@@ -166,6 +251,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+//
+//
 //
 //
 //
@@ -443,7 +530,9 @@ var _default = {
       loadStatus: ['loadmore', 'loadmore', 'loadmore', 'loadmore']
     };
   },
-  onLoad: function onLoad() {
+  onLoad: function onLoad(option) {
+    this.current = option.type;
+    this.swiperCurrent = option.type;
     this.getOrderList(0);
     this.getOrderList(1);
     this.getOrderList(3);
@@ -463,6 +552,7 @@ var _default = {
     }
   },
   methods: {
+    click: function click() {},
     reachBottom: function reachBottom() {
       var _this = this;
       // 此tab为空数据
@@ -500,17 +590,18 @@ var _default = {
       return num;
     },
     // tab栏切换
-    change: function change(index) {
-      this.swiperCurrent = index;
-      this.getOrderList(index);
+    change: function change(tabItem) {
+      this.swiperCurrent = tabItem.index;
+      this.getOrderList(tabItem.index);
     },
     transition: function transition(_ref) {
       var dx = _ref.detail.dx;
-      this.$refs.tabs.setDx(dx);
     },
     animationfinish: function animationfinish(_ref2) {
       var current = _ref2.detail.current;
-      this.$refs.tabs.setFinishCurrent(current);
+    },
+    swiperChange: function swiperChange(_ref3) {
+      var current = _ref3.detail.current;
       this.swiperCurrent = current;
       this.current = current;
     }

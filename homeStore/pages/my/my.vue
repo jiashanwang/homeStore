@@ -2,11 +2,10 @@
 	<view class="u-demo">
 		<view class="u-demo-wrap">
 			<view class="u-flex-column">
-				<u-avatar :src="src" :size="size" ></u-avatar>
+				<u-avatar :src="src" :size="size" @tap="loginClick"></u-avatar>
 				<view class="noactive u-margin-top-10" @tap="loginClick">{{ nickName }}</view>
 			</view>
 		</view>
-		<!-- <view class="line-operate"></view> -->
 		<u-gap height="8" bg-color="#f4f4f5"></u-gap>
 		<view>
 			<view class="u-margin-left-20 u-margin-top-20 u-padding-bottom-10 u-font-xl">
@@ -15,21 +14,21 @@
 			<u-line></u-line>
 		</view>
 	<view class="u-flex-row u-row-around order-wrap u-flex-nowrap">
-			<view class="u-flex-1 u-flex-column" @tap="jumpToOrder(1)">
+			<view class="u-flex-1 u-flex-column" @tap="jumpToOrder(0)">
 				<view>
 					<u-image :src="readyPayUrl" width="70rpx" height="70rpx" shape="circle" mode="widthFix"></u-image>
 				</view>
 				<view class="order-types u-margin-top-5 u-font-md">待付款</view>
 			</view>
-			<view class="u-flex-1 u-flex-column" @tap="jumpToOrder(2)">
+			<view class="u-flex-1 u-flex-column" @tap="jumpToOrder(1)">
 				<u-image :src="readySendUrl" width="70rpx" height="70rpx" shape="circle" mode="widthFix"></u-image>
 				<view class="order-types u-margin-top-5 u-font-md">待发货</view>
 			</view>
-			<view class="u-flex-1 u-flex-column" @tap="jumpToOrder(3)">
+			<view class="u-flex-1 u-flex-column" @tap="jumpToOrder(2)">
 				<u-image :src="readyReceiveUrl" width="70rpx" height="70rpx" shape="circle" mode="widthFix"></u-image>
 				<view class="order-types u-margin-top-5 u-font-md">待收货</view>
 			</view>
-			<view class="u-flex-1 u-flex-column" @tap="jumpToOrder(4)">
+			<view class="u-flex-1 u-flex-column" @tap="jumpToOrder(3)">
 				<u-image :src="readyEvaluateUrl" width="70rpx" height="70rpx" shape="circle" mode="widthFix"></u-image>
 				<view class="order-types u-margin-top-5 u-font-md">待评价</view>
 			</view>
@@ -61,7 +60,7 @@
 			return {
 				mode: 'circle',
 				src: 'https://cdn.uviewui.com/uview/album/1.jpg',
-				size: '90',
+				size: '50',
 				bgColor: '#fcbd71',
 				nickName:"立即登陆",
 				loginType:"unLogin",//unlogin 未登录
@@ -76,7 +75,7 @@
 			// 立即登录
 			loginClick(){
 				if (this.loginType == "unLogin"){
-					// this.$u.route("/pages/template/login/index");
+					this.$u.route("/pages/login/login");
 				}
 			},
 			jumpToOrder(type){

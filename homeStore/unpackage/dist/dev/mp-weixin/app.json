@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/my/my",
-    "pages/order/order"
+    "pages/order/order",
+    "pages/login/login",
+    "pages/login/code"
   ],
   "subPackages": [],
   "window": {

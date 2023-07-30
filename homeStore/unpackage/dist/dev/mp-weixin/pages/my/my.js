@@ -240,13 +240,12 @@ exports.default = void 0;
 //
 //
 //
-//
 var _default = {
   data: function data() {
     return {
       mode: 'circle',
       src: 'https://cdn.uviewui.com/uview/album/1.jpg',
-      size: '90',
+      size: '50',
       bgColor: '#fcbd71',
       nickName: "立即登陆",
       loginType: "unLogin",
@@ -262,7 +261,7 @@ var _default = {
     // 立即登录
     loginClick: function loginClick() {
       if (this.loginType == "unLogin") {
-        // this.$u.route("/pages/template/login/index");
+        this.$u.route("/pages/login/login");
       }
     },
     jumpToOrder: function jumpToOrder(type) {

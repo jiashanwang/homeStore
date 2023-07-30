@@ -20,6 +20,13 @@
           "query": "type=2",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "输入验证码",
+          "pathName": "pages/login/code",
+          "query": "phone=%252218171818181%2522",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

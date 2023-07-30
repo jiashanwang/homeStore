@@ -103,6 +103,15 @@ try {
     uMessageInput: function () {
       return __webpack_require__.e(/*! import() | uview-ui/components/u-message-input/u-message-input */ "uview-ui/components/u-message-input/u-message-input").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-message-input/u-message-input.vue */ 1169))
     },
+    uToast: function () {
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-toast/u-toast */ "uview-ui/components/u-toast/u-toast").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-toast/u-toast.vue */ 1064))
+    },
+    uCode: function () {
+      return Promise.resolve().then(function webpackMissingModule() { var e = new Error("Cannot find module '@/uview-ui/components/u-code/u-code.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; })
+    },
+    uButton: function () {
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-button/u-button */ "uview-ui/components/u-button/u-button").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-button/u-button.vue */ 1141))
+    },
   }
 } catch (e) {
   if (
@@ -155,81 +164,9 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!/Users/wangjiashan/Documents/HBuilderProjects/homeStore/uView示例/pages/template/login/code.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-var _default = {
-  data: function data() {
-    return {
-      maxlength: 4,
-      value: '',
-      second: 60,
-      show: false,
-      error: false,
-      phone: "" // 手机号码
-    };
-  },
-
-  computed: {},
-  onLoad: function onLoad(option) {
-    var _this = this;
-    // this.getCaptcha()
-    var phone = JSON.parse(decodeURIComponent(option.phone));
-    debugger;
-    this.phone = phone;
-    var interval = setInterval(function () {
-      _this.second--;
-      if (_this.second <= 0) {
-        _this.show = true;
-        if (_this.value.lenth != 4) {
-          _this.error = true;
-        }
-        clearInterval(interval);
-      }
-    }, 1000);
-  },
-  methods: {
-    // 收不到验证码选择时的选择
-    noCaptcha: function noCaptcha() {
-      uni.showActionSheet({
-        itemList: ['重新获取验证码', '接听语音验证码'],
-        success: function success(res) {},
-        fail: function fail(res) {}
-      });
-    },
-    // change事件侦听
-    change: function change(value) {
-      // console.log('change', value);
-    },
-    // 输入完验证码最后一位执行
-    finish: function finish(value) {
-      // console.log('finish', value);
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+throw new Error("Module build failed (from ./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js):\nSyntaxError: Unexpected token, expected \",\" (88:2)\n    at instantiate (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:67:32)\n    at constructor (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:364:12)\n    at TypeScriptParserMixin.raise (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:3365:19)\n    at TypeScriptParserMixin.unexpected (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:3398:16)\n    at TypeScriptParserMixin.expect (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:3761:28)\n    at TypeScriptParserMixin.parseObjectLike (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11982:14)\n    at TypeScriptParserMixin.parseExprAtom (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11464:23)\n    at TypeScriptParserMixin.parseExprSubscripts (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11171:23)\n    at TypeScriptParserMixin.parseUpdate (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11153:21)\n    at TypeScriptParserMixin.parseMaybeUnary (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11127:23)\n    at TypeScriptParserMixin.parseMaybeUnary (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9590:20)\n    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10956:61)\n    at TypeScriptParserMixin.parseExprOps (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10962:23)\n    at TypeScriptParserMixin.parseMaybeConditional (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10937:23)\n    at TypeScriptParserMixin.parseMaybeAssign (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10895:21)\n    at TypeScriptParserMixin.parseMaybeAssign (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9529:20)\n    at /Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10863:39\n    at TypeScriptParserMixin.allowInAnd (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12640:12)\n    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10863:17)\n    at TypeScriptParserMixin.parseObjectProperty (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12127:83)\n    at TypeScriptParserMixin.parseObjPropValue (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12154:100)\n    at TypeScriptParserMixin.parseObjPropValue (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9482:18)\n    at TypeScriptParserMixin.parsePropertyDefinition (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12083:17)\n    at TypeScriptParserMixin.parseObjectLike (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11993:21)\n    at TypeScriptParserMixin.parseExprAtom (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11464:23)\n    at TypeScriptParserMixin.parseExprSubscripts (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11171:23)\n    at TypeScriptParserMixin.parseUpdate (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11153:21)\n    at TypeScriptParserMixin.parseMaybeUnary (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:11127:23)\n    at TypeScriptParserMixin.parseMaybeUnary (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9590:20)\n    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10956:61)\n    at TypeScriptParserMixin.parseExprOps (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10962:23)\n    at TypeScriptParserMixin.parseMaybeConditional (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10937:23)\n    at TypeScriptParserMixin.parseMaybeAssign (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10895:21)\n    at TypeScriptParserMixin.parseMaybeAssign (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9529:20)\n    at /Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10863:39\n    at TypeScriptParserMixin.allowInAnd (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12635:16)\n    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10863:17)\n    at TypeScriptParserMixin.parseExportDefaultExpression (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:14235:22)\n    at TypeScriptParserMixin.parseExportDefaultExpression (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9182:18)\n    at TypeScriptParserMixin.parseExport (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:14139:25)\n    at TypeScriptParserMixin.parseExport (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9164:20)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13073:27)\n    at TypeScriptParserMixin.parseStatementContent (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9223:18)\n    at TypeScriptParserMixin.parseStatementLike (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12952:17)\n    at TypeScriptParserMixin.parseModuleItem (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12933:17)\n    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13558:36)\n    at TypeScriptParserMixin.parseBlockBody (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:13550:10)\n    at TypeScriptParserMixin.parseProgram (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12842:10)\n    at TypeScriptParserMixin.parseTopLevel (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:12832:25)\n    at TypeScriptParserMixin.parse (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:14740:10)");
 
 /***/ }),
 

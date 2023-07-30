@@ -1,9 +1,9 @@
 <template>
 	<view class="wrap">
-		<view>
+		<view class="container">
 			<view class="u-tabs-box">
-				<!-- <u-tabs-swiper activeColor="#f29100" ref="tabs" :list="list" :current="current" @change="change" :is-scroll="false" swiperWidth="750"></u-tabs-swiper> -->
 				<u-tabs 
+					ref="tabs"
 					:list="list"
 					lineColor="#f29100"
 					:activeStyle="{
@@ -11,20 +11,22 @@
 						fontWeight: 'bold',
 						transform: 'scale(1.05)'
 					}" 
+					:current="current"
 					:scrollable="false" 
+					@change="change"
 					@click="click">
 				</u-tabs>
 			</view>
-			<!-- <swiper class="swiper-box" :current="swiperCurrent" @transition="transition" @animationfinish="animationfinish">
+			<swiper class="swiper-box" :current="swiperCurrent" @change="swiperChange" @transition="transition" @animationfinish="animationfinish">
 				<swiper-item class="swiper-item">
 					<scroll-view scroll-y style="height: 100%;width: 100%;" @scrolltolower="reachBottom">
 						<view class="page-box">
 							<view class="order" v-for="(res, index) in orderList[0]" :key="res.id">
 								<view class="top">
 									<view class="left">
-										<u-icon name="home" :size="30" color="rgb(94,94,94)"></u-icon>
+										<u-icon name="home" :size="20" color="rgb(94,94,94)"></u-icon>
 										<view class="store">{{ res.store }}</view>
-										<u-icon name="arrow-right" color="rgb(203,203,203)" :size="26"></u-icon>
+										<u-icon name="arrow-right" color="rgb(203,203,203)" :size="15"></u-icon>
 									</view>
 									<view class="right">{{ res.deal }}</view>
 								</view>
@@ -50,7 +52,7 @@
 										<text class="decimal">{{ priceDecimal(totalPrice(res.goodsList)) }}</text>
 									</text>
 								</view>
-								<view class="bottom">
+								<view class="bottom u-flex-row u-row-between u-margin-top-10 bottom-btn">
 									<view class="more"><u-icon name="more-dot-fill" color="rgb(203,203,203)"></u-icon></view>
 									<view class="logistics btn">查看物流</view>
 									<view class="exchange btn">卖了换钱</view>
@@ -67,9 +69,9 @@
 							<view class="order" v-for="(res, index) in  orderList[1]" :key="res.id">
 								<view class="top">
 									<view class="left">
-										<u-icon name="home" :size="30" color="rgb(94,94,94)"></u-icon>
+										<u-icon name="home" :size="20" color="rgb(94,94,94)"></u-icon>
 										<view class="store">{{ res.store }}</view>
-										<u-icon name="arrow-right" color="rgb(203,203,203)" :size="26"></u-icon>
+										<u-icon name="arrow-right" color="rgb(203,203,203)" :size="25"></u-icon>
 									</view>
 									<view class="right">{{ res.deal }}</view>
 								</view>
@@ -95,7 +97,7 @@
 										<text class="decimal">{{ priceDecimal(totalPrice(res.goodsList)) }}</text>
 									</text>
 								</view>
-								<view class="bottom">
+								<view class="bottom u-flex-row u-row-between u-margin-top-10 bottom-btn">
 									<view class="more"><u-icon name="more-dot-fill" color="rgb(203,203,203)"></u-icon></view>
 									<view class="logistics btn">查看物流</view>
 									<view class="exchange btn">卖了换钱</view>
@@ -128,9 +130,9 @@
 							<view class="order" v-for="(res, index) in  orderList[3]" :key="res.id">
 								<view class="top">
 									<view class="left">
-										<u-icon name="home" :size="30" color="rgb(94,94,94)"></u-icon>
+										<u-icon name="home" :size="20" color="rgb(94,94,94)"></u-icon>
 										<view class="store">{{ res.store }}</view>
-										<u-icon name="arrow-right" color="rgb(203,203,203)" :size="26"></u-icon>
+										<u-icon name="arrow-right" color="rgb(203,203,203)" :size="15"></u-icon>
 									</view>
 									<view class="right">{{ res.deal }}</view>
 								</view>
@@ -156,7 +158,7 @@
 										<text class="decimal">{{ priceDecimal(totalPrice(res.goodsList)) }}</text>
 									</text>
 								</view>
-								<view class="bottom">
+								<view class="bottom u-flex-row u-row-between u-margin-top-10 bottom-btn">
 									<view class="more"><u-icon name="more-dot-fill" color="rgb(203,203,203)"></u-icon></view>
 									<view class="logistics btn">查看物流</view>
 									<view class="exchange btn">卖了换钱</view>
@@ -167,7 +169,7 @@
 						</view>
 					</scroll-view>
 				</swiper-item>
-			</swiper> -->
+			</swiper>
 		</view>
 	</view>
 </template>
@@ -300,7 +302,9 @@ export default {
 			loadStatus: ['loadmore','loadmore','loadmore','loadmore'],
 		};
 	},
-	onLoad() {
+	onLoad(option) {
+		this.current = option.type;
+		this.swiperCurrent = option.type;
 		this.getOrderList(0);
 		this.getOrderList(1);
 		this.getOrderList(3);
@@ -322,6 +326,7 @@ export default {
 		}
 	},
 	methods: {
+		click(){},
 		reachBottom() {
 			// 此tab为空数据
 			if(this.current != 2) {
@@ -358,15 +363,15 @@ export default {
 			return num;
 		},
 		// tab栏切换
-		change(index) {
-			this.swiperCurrent = index;
-			this.getOrderList(index);
+		change(tabItem) {
+			this.swiperCurrent = tabItem.index;
+			this.getOrderList(tabItem.index);
 		},
 		transition({ detail: { dx } }) {
-			this.$refs.tabs.setDx(dx);
 		},
 		animationfinish({ detail: { current } }) {
-			this.$refs.tabs.setFinishCurrent(current);
+		},
+		swiperChange({ detail: { current } }){
 			this.swiperCurrent = current;
 			this.current = current;
 		}
@@ -510,6 +515,7 @@ page {
 }
 .swiper-box {
 	flex: 1;
+	height: 100%;
 }
 .swiper-item {
 	height: 100%;
@@ -517,5 +523,24 @@ page {
 // ====== 自定义新增样式
 .wrap{
 	background-color: #ffffff;
+}
+.container{
+	height: 100%;
+}
+.bottom-btn{
+	padding:0 5px;
+	.btn{
+		line-height: 24px;
+		width: 70px;
+		border-radius: 13px;
+		border: 1px solid #e4e7ed;
+		font-size: 13px;
+		text-align: center;
+		color: #82848a;
+	}
+	.evaluate{
+		color: #f29100;
+		border-color: #f29100;
+	}
 }
 </style>
