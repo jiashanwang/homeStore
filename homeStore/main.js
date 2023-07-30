@@ -5,7 +5,7 @@ import Vue from 'vue'
 import './uni.promisify.adaptor'
 import uView from '@/uni_modules/uview-ui'
 Vue.use(uView)
-uni.$u.config.unit = 'rpx'
+// uni.$u.config.unit = 'rpx'
 
 Vue.config.productionTip = false
 App.mpType = 'app'

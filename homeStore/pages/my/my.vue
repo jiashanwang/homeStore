@@ -80,7 +80,7 @@
 				}
 			},
 			jumpToOrder(type){
-				// this.$u.route("/pages/template/order/index",{type});
+				this.$u.route("/pages/order/order",{type});
 			},
 		}
 	}

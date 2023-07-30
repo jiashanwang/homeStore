@@ -17,12 +17,21 @@
             }
             
         }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "订单列表",
+               "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
 	},
 	"tabBar": {
 		"color": "#666666",
