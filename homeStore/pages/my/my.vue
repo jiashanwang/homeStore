@@ -41,13 +41,13 @@
 			<u-line />
 			<u-cell-group>
 				<u-cell title="我的卡券" size="20" clickable="true" :isLink="true" rightIconStyle="font-size:34rpx;">
-					<u-icon slot="icon" size="40" name="coupon" color="#1596db"></u-icon>
+					<u-icon slot="icon" size="26" name="coupon" color="#1596db"></u-icon>
 				</u-cell>
 				<u-cell title="联系客服" clickable="true" :isLink="true" rightIconStyle="font-size:34rpx;">
-					<u-icon slot="icon" size="40" name="server-man" color="#2979ff"></u-icon>
+					<u-icon slot="icon" size="26" name="server-man" color="#2979ff"></u-icon>
 				</u-cell>
 				<u-cell title="售后电话" size="20" clickable="true" :isLink="true" rightIconStyle="font-size:34rpx;">
-					<u-icon slot="icon" size="40" name="server-fill" color="#f8cd82"></u-icon>
+					<u-icon slot="icon" size="26" name="server-fill" color="#f8cd82"></u-icon>
 				</u-cell>
 			</u-cell-group>
 		</view>

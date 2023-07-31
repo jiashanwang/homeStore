@@ -12,7 +12,8 @@
             "path" : "pages/my/my",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "个人中心"
+                "navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
                 
             }
             
@@ -22,6 +23,7 @@
             "style" :                                                                                    
             {
                "navigationBarTitleText": "订单列表",
+			   "navigationStyle": "custom",
                "enablePullDownRefresh": false
             }
             
@@ -30,12 +32,22 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
+				"navigationStyle": "custom",
                 "enablePullDownRefresh": false
             }
             
         }
         ,{
             "path" : "pages/login/code",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
