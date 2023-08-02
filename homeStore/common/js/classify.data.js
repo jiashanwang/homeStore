@@ -3,100 +3,100 @@ export default[
         "name": "女装",
         "foods": [
             {
-                "name": "A字裙",
-                "key": "A字裙",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/1.jpg",
+                "name": "针织T恤",
+                "key": "针织T恤",
+                "icon": require("@/static/images/imgs/1.jpg"),
                 "cat": 10,
                 "amount": 132
             },
             {
-                "name": "T恤",
-                "key": "T恤",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/2.jpg",
+                "name": "纯棉短袖",
+                "key": "纯棉短袖",
+                "icon": require("@/static/images/imgs/2.jpg"),
                 "cat": 10,
                 "amount": 86
             },
             {
-                "name": "半身裙",
-                "key": "半身裙",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/3.jpg",
+                "name": "吊带裙子",
+                "key": "吊带裙子",
+                "icon": require("@/static/images/imgs/3.jpg"),
                 "cat": 10,
                 "amount": 88
             },
             {
-                "name": "衬衫",
-                "key": "衬衫",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/4.jpg",
+                "name": "印花裙",
+                "key": "印花裙",
+                "icon": require("@/static/images/imgs/4.jpg"),
                 "cat": 10,
                 "amount": 157
             },
             {
-                "name": "短裙",
-                "key": "短裙",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/5.jpg",
+                "name": "爱心纯棉",
+                "key": "爱心纯棉",
+                "icon": require("@/static/images/imgs/5.jpg"),
                 "cat": 10,
                 "amount": 119
             },
             {
                 "name": "阔腿裤",
                 "key": "阔腿裤",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/6.jpg",
+                "icon": require("@/static/images/imgs/6.jpg"),
                 "cat": 10,
                 "amount": 127
             },
             {
-                "name": "连衣裙",
-                "key": "连衣裙",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/7.jpg",
+                "name": "潮流短袖",
+                "key": "潮流短袖",
+                "icon": require("@/static/images/imgs/7.jpg"),
                 "cat": 10,
                 "amount": 69
             },
             {
-                "name": "妈妈装",
-                "key": "妈妈装",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/8.jpg",
+                "name": "高腰露挤",
+                "key": "高腰露挤",
+                "icon": require("@/static/images/imgs/8.jpg"),
                 "cat": 10,
                 "amount": 81
             },
             {
-                "name": "牛仔裤",
-                "key": "牛仔裤",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/9.jpg",
+                "name": "优雅经典",
+                "key": "优雅经典",
+                "icon": require("@/static/images/imgs/9.jpg"),
                 "cat": 10,
                 "amount": 165
             },
             {
-                "name": "情侣装",
-                "key": "情侣装",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/10.jpg",
+                "name": "韩版宽松",
+                "key": "韩版宽松",
+                "icon": require("@/static/images/imgs/10.jpg"),
                 "cat": 10,
                 "amount": 85
             },
             {
-                "name": "休闲裤",
-                "key": "休闲裤",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/11.jpg",
+                "name": "黑色喇叭裤",
+                "key": "黑色喇叭裤",
+                "icon": require("@/static/images/imgs/11.jpg"),
                 "cat": 10,
                 "amount": 84
             },
             {
-                "name": "雪纺衫",
-                "key": "雪纺衫",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/12.jpg",
+                "name": "日本SLY",
+                "key": "日本SLY",
+                "icon": require("@/static/images/imgs/12.jpg"),
                 "cat": 10,
                 "amount": 197
             },
             {
-                "name": "防晒衣",
-                "key": "防晒衣",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/13.jpg",
+                "name": "杏色半袖",
+                "key": "杏色半袖",
+                "icon": require("@/static/images/imgs/13.jpg"),
                 "cat": 10,
                 "amount": 59
             },
             {
-                "name": "礼服/婚纱",
-                "key": "礼服婚纱",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/1/14.jpg",
+                "name": "深藏轻条纹",
+                "key": "深藏轻条纹",
+                "icon": require("@/static/images/imgs/14.jpg"),
                 "cat": 10,
                 "amount": 197
             }
@@ -106,100 +106,100 @@ export default[
         "name": "美食",
         "foods": [
             {
-                "name": "火锅",
-                "key": "火锅",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/1.jpg",
+                "name": "JR蝴蝶酥",
+                "key": "JR蝴蝶酥",
+                "icon": require("@/static/images/imgs/food1.jpg"),
                 "cat": 6,
                 "amount": 60
             },
             {
-                "name": "糕点饼干",
-                "key": "糕点饼干",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/2.jpg",
+                "name": "休闲食品",
+                "key": "休闲食品",
+                "icon": require("@/static/images/imgs/food2.jpg"),
                 "cat": 6,
                 "amount": 57
             },
             {
-                "name": "坚果果干",
-                "key": "坚果果干",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/3.jpg",
+                "name": "老香斋油枣",
+                "key": "老香斋油枣",
+                "icon": require("@/static/images/imgs/food3.jpg"),
                 "cat": 6,
                 "amount": 86
             },
             {
-                "name": "酒类",
-                "key": "酒类",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/4.jpg",
+                "name": "荔浦芋头",
+                "key": "荔浦芋头",
+                "icon": require("@/static/images/imgs/food4.jpg"),
                 "cat": 6,
                 "amount": 90
             },
             {
-                "name": "辣条",
-                "key": "辣条",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/5.jpg",
+                "name": "五香酱牛肉",
+                "key": "五香酱牛肉",
+                "icon": require("@/static/images/imgs/food5.jpg"),
                 "cat": 6,
                 "amount": 94
             },
             {
-                "name": "大礼包",
-                "key": "大礼包",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/6.jpg",
+                "name": "哈尔冰红肠",
+                "key": "哈尔冰红肠",
+                "icon": require("@/static/images/imgs/food6.jpg"),
                 "cat": 6,
                 "amount": 159
             },
             {
-                "name": "精品茗茶",
-                "key": "茶",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/7.jpg",
+                "name": "湖南酱板鸭",
+                "key": "湖南酱板鸭",
+                "icon": require("@/static/images/imgs/food7.jpg"),
                 "cat": 6,
                 "amount": 86
             },
             {
-                "name": "休闲食品",
-                "key": "休闲食品",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/8.jpg",
+                "name": "里奈零食大礼包",
+                "key": "里奈零食大礼包",
+                "icon": require("@/static/images/imgs/food8.jpg"),
                 "cat": 6,
                 "amount": 177
             },
             {
-                "name": "糖果巧克力",
-                "key": "糖果巧克力",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/9.jpg",
+                "name": "吉祥混沌",
+                "key": "吉祥混沌",
+                "icon": require("@/static/images/imgs/food9.jpg"),
                 "cat": 6,
                 "amount": 156
             },
             {
-                "name": "方便速食",
-                "key": "方便速食",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/10.jpg",
+                "name": "帝煌蟹脚",
+                "key": "帝煌蟹脚",
+                "icon": require("@/static/images/imgs/food10.jpg"),
                 "cat": 6,
                 "amount": 56
             },
             {
-                "name": "营养代餐",
-                "key": "营养代餐",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/11.jpg",
+                "name": "土凤梨酥",
+                "key": "土凤梨酥",
+                "icon": require("@/static/images/imgs/food11.jpg"),
                 "cat": 6,
                 "amount": 120
             },
             {
-                "name": "粮油副食",
-                "key": "粮油",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/12.jpg",
+                "name": "麻辣鸭脑壳",
+                "key": "麻辣鸭脑壳",
+                "icon": require("@/static/images/imgs/food12.jpg"),
                 "cat": 6,
                 "amount": 154
             },
             {
-                "name": "生鲜水果",
-                "key": "水果",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/13.jpg",
+                "name": "巴虎皮",
+                "key": "巴虎皮",
+                "icon": require("@/static/images/imgs/food13.jpg"),
                 "cat": 6,
                 "amount": 186
             },
             {
-                "name": "饮品",
-                "key": "饮品",
-                "icon": "https://cdn.uviewui.com/uview/common/classify/2/14.jpg",
+                "name": "杭州卤鸭",
+                "key": "杭州卤鸭",
+                "icon": require("@/static/images/imgs/food14.jpg"),
                 "cat": 6,
                 "amount": 199
             }
