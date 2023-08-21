@@ -50,6 +50,9 @@
 					<u-icon slot="icon" size="26" name="server-fill" color="#f8cd82"></u-icon>
 				</u-cell>
 			</u-cell-group>
+			<view @tap="jumpToOutSize">
+				点击跳转到微信
+			</view>
 		</view>
 	</view>
 </template>
@@ -80,6 +83,9 @@
 			},
 			jumpToOrder(type){
 				this.$u.route("/pages/order/order",{type});
+			},
+			jumpToOutSize(){
+				uni.navigateTo({ url: '/pages/webview/webview' })
 			},
 		}
 	}
@@ -130,6 +136,10 @@
 	}
 	.u-cell_title::v-deep{
 		margin-left:18rpx!important;
+	}
+	.u-cell__body{
+		padding: 16px 15px!important;
+		
 	}
 	
 	
