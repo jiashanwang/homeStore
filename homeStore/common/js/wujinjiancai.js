@@ -4,205 +4,191 @@ export default[
         "name": "陶瓷/台盆",
         "foods": [
             {
-                "name": "针织T恤",
-                "key": "针织T恤",
-                "icon": require("@/static/images/imgs/1.jpg"),
+                "name": "陶瓷岩板盆",
+                "key": "陶瓷岩板盆",
+                "icon": require("@/static/images/wujinImgs/tctp1.jpg"),
                 "cat": 10,
-                "amount": 132
+                "amount": 200
             },
             {
-                "name": "纯棉短袖",
-                "key": "纯棉短袖",
-                "icon": require("@/static/images/imgs/2.jpg"),
+                "name": "嵌入式洗漱盆",
+                "key": "嵌入式洗漱盆",
+                "icon": require("@/static/images/wujinImgs/tctp2.jpg"),
                 "cat": 10,
-                "amount": 86
+                "amount": 400
             },
             {
-                "name": "吊带裙子",
-                "key": "吊带裙子",
-                "icon": require("@/static/images/imgs/3.jpg"),
+                "name": "柯鲸洗手盆",
+                "key": "柯鲸洗手盆",
+                "icon": require("@/static/images/wujinImgs/tctp3.jpg"),
                 "cat": 10,
-                "amount": 88
+                "amount": 300
             },
             {
-                "name": "印花裙",
-                "key": "印花裙",
-                "icon": require("@/static/images/imgs/4.jpg"),
+                "name": "小椭圆台下盆",
+                "key": "小椭圆台下盆",
+                "icon": require("@/static/images/wujinImgs/tctp4.jpg"),
                 "cat": 10,
-                "amount": 157
+                "amount": 400
             },
             {
-                "name": "爱心纯棉",
-                "key": "爱心纯棉",
-                "icon": require("@/static/images/imgs/5.jpg"),
+                "name": "智洁陶瓷面盆",
+                "key": "智洁陶瓷面盆",
+                "icon": require("@/static/images/wujinImgs/tctp5.jpg"),
                 "cat": 10,
-                "amount": 119
+                "amount": 300
             },
             {
-                "name": "阔腿裤",
-                "key": "阔腿裤",
-                "icon": require("@/static/images/imgs/6.jpg"),
+                "name": "箭牌方形台下盆",
+                "key": "箭牌方形台下盆",
+                "icon": require("@/static/images/wujinImgs/tctp6.jpg"),
                 "cat": 10,
-                "amount": 127
+                "amount": 800
             },
             {
-                "name": "潮流短袖",
-                "key": "潮流短袖",
-                "icon": require("@/static/images/imgs/7.jpg"),
+                "name": "太空铝岩板台盆",
+                "key": "太空铝岩板台盆",
+                "icon": require("@/static/images/wujinImgs/tctp7.jpg"),
                 "cat": 10,
-                "amount": 69
+                "amount": 700
             },
             {
-                "name": "高腰露挤",
-                "key": "高腰露挤",
-                "icon": require("@/static/images/imgs/8.jpg"),
+                "name": "莫兰迪灰盆",
+                "key": "莫兰迪灰盆",
+                "icon": require("@/static/images/wujinImgs/tctp8.jpg"),
                 "cat": 10,
-                "amount": 81
+                "amount": 600
             },
             {
-                "name": "优雅经典",
-                "key": "优雅经典",
-                "icon": require("@/static/images/imgs/9.jpg"),
+                "name": "方形陶瓷",
+                "key": "方形陶瓷",
+                "icon": require("@/static/images/wujinImgs/tctp9.jpg"),
                 "cat": 10,
-                "amount": 165
+                "amount": 500
             },
             {
-                "name": "韩版宽松",
-                "key": "韩版宽松",
-                "icon": require("@/static/images/imgs/10.jpg"),
+                "name": "哈骆顿台盆",
+                "key": "哈骆顿台盆",
+                "icon": require("@/static/images/wujinImgs/tctp10.jpg"),
                 "cat": 10,
-                "amount": 85
+                "amount": 100
             },
             {
-                "name": "黑色喇叭裤",
-                "key": "黑色喇叭裤",
-                "icon": require("@/static/images/imgs/11.jpg"),
+                "name": "奥萨帝陶瓷盆",
+                "key": "奥萨帝陶瓷盆",
+                "icon": require("@/static/images/wujinImgs/tctp11.jpg"),
                 "cat": 10,
-                "amount": 84
+                "amount": 200
             },
             {
-                "name": "日本SLY",
-                "key": "日本SLY",
-                "icon": require("@/static/images/imgs/12.jpg"),
+                "name": "MAZA台下盆",
+                "key": "MAZA台下盆",
+                "icon": require("@/static/images/wujinImgs/tctp12.jpg"),
                 "cat": 10,
-                "amount": 197
+                "amount": 300
             },
-            {
-                "name": "杏色半袖",
-                "key": "杏色半袖",
-                "icon": require("@/static/images/imgs/13.jpg"),
-                "cat": 10,
-                "amount": 59
-            },
-            {
-                "name": "深藏轻条纹",
-                "key": "深藏轻条纹",
-                "icon": require("@/static/images/imgs/14.jpg"),
-                "cat": 10,
-                "amount": 197
-            }
         ]
     },
     {
         "name": "气动接头",
         "foods": [
             {
-                "name": "JR蝴蝶酥",
-                "key": "JR蝴蝶酥",
-                "icon": require("@/static/images/imgs/food1.jpg"),
+                "name": "气管接头",
+                "key": "气管接头",
+                "icon": require("@/static/images/wujinImgs/qgjt1.jpg"),
                 "cat": 6,
-                "amount": 60
+                "amount": 600
             },
             {
-                "name": "休闲食品",
-                "key": "休闲食品",
-                "icon": require("@/static/images/imgs/food2.jpg"),
+                "name": "气管快插头",
+                "key": "气管快插头",
+                "icon": require("@/static/images/wujinImgs/qgjt2.jpg"),
                 "cat": 6,
-                "amount": 57
+                "amount": 600
             },
             {
-                "name": "老香斋油枣",
-                "key": "老香斋油枣",
-                "icon": require("@/static/images/imgs/food3.jpg"),
+                "name": "空气调气阀",
+                "key": "空气调气阀",
+                "icon": require("@/static/images/wujinImgs/qgjt3.jpg"),
                 "cat": 6,
-                "amount": 86
+                "amount": 500
             },
             {
-                "name": "荔浦芋头",
-                "key": "荔浦芋头",
-                "icon": require("@/static/images/imgs/food4.jpg"),
+                "name": "高压软管连接器",
+                "key": "高压软管连接器",
+                "icon": require("@/static/images/wujinImgs/qgjt4.jpg"),
                 "cat": 6,
-                "amount": 90
+                "amount": 400
             },
             {
-                "name": "五香酱牛肉",
-                "key": "五香酱牛肉",
-                "icon": require("@/static/images/imgs/food5.jpg"),
+                "name": "空压机接头",
+                "key": "空压机接头",
+                "icon": require("@/static/images/wujinImgs/qgjt5.jpg"),
                 "cat": 6,
-                "amount": 94
+                "amount": 100
             },
             {
-                "name": "哈尔冰红肠",
-                "key": "哈尔冰红肠",
-                "icon": require("@/static/images/imgs/food6.jpg"),
+                "name": "PC螺纹接头",
+                "key": "PC螺纹接头",
+                "icon": require("@/static/images/wujinImgs/qgjt6.jpg"),
                 "cat": 6,
-                "amount": 159
+                "amount": 300
             },
             {
-                "name": "湖南酱板鸭",
-                "key": "湖南酱板鸭",
-                "icon": require("@/static/images/imgs/food7.jpg"),
+                "name": "气管开关阀",
+                "key": "气管开关阀",
+                "icon": require("@/static/images/wujinImgs/qgjt7.jpg"),
                 "cat": 6,
-                "amount": 86
+                "amount": 500
             },
             {
-                "name": "里奈零食大礼包",
-                "key": "里奈零食大礼包",
-                "icon": require("@/static/images/imgs/food8.jpg"),
+                "name": "气动快插接头",
+                "key": "气动快插接头",
+                "icon": require("@/static/images/wujinImgs/qgjt8.jpg"),
                 "cat": 6,
-                "amount": 177
+                "amount": 100
             },
             {
-                "name": "吉祥混沌",
-                "key": "吉祥混沌",
-                "icon": require("@/static/images/imgs/food9.jpg"),
+                "name": "C式快速接头",
+                "key": "C式快速接头",
+                "icon": require("@/static/images/wujinImgs/qgjt9.jpg"),
                 "cat": 6,
-                "amount": 156
+                "amount": 200
             },
             {
-                "name": "帝煌蟹脚",
-                "key": "帝煌蟹脚",
-                "icon": require("@/static/images/imgs/food10.jpg"),
+                "name": "快速接头PP管",
+                "key": "快速接头PP管",
+                "icon": require("@/static/images/wujinImgs/qgjt10.jpg"),
                 "cat": 6,
-                "amount": 56
+                "amount": 200
             },
             {
-                "name": "土凤梨酥",
-                "key": "土凤梨酥",
-                "icon": require("@/static/images/imgs/food11.jpg"),
+                "name": "不锈钢气管",
+                "key": "不锈钢气管",
+                "icon": require("@/static/images/wujinImgs/qgjt11.jpg"),
                 "cat": 6,
-                "amount": 120
+                "amount": 600
             },
             {
-                "name": "麻辣鸭脑壳",
-                "key": "麻辣鸭脑壳",
-                "icon": require("@/static/images/imgs/food12.jpg"),
+                "name": "气动配件气泵 ",
+                "key": "气动配件气泵 ",
+                "icon": require("@/static/images/wujinImgs/qgjt12.jpg"),
                 "cat": 6,
-                "amount": 154
+                "amount": 150
             },
             {
-                "name": "巴虎皮",
-                "key": "巴虎皮",
-                "icon": require("@/static/images/imgs/food13.jpg"),
+                "name": "自锁快速接头",
+                "key": "自锁快速接头",
+                "icon": require("@/static/images/wujinImgs/qgjt13.jpg"),
                 "cat": 6,
-                "amount": 186
+                "amount": 200
             },
             {
-                "name": "杭州卤鸭",
-                "key": "杭州卤鸭",
-                "icon": require("@/static/images/imgs/food14.jpg"),
+                "name": "Y型三通",
+                "key": "Y型三通",
+                "icon": require("@/static/images/wujinImgs/qgjt14.jpg"),
                 "cat": 6,
-                "amount": 199
+                "amount": 300
             }
         ]
     },
