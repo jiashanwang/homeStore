@@ -50,9 +50,9 @@
 					<u-icon slot="icon" size="26" name="server-fill" color="#f8cd82"></u-icon>
 				</u-cell>
 			</u-cell-group>
-			<view @tap="jumpToOutSize">
+	<!-- 		<view @tap="jumpToOutSize">
 				点击跳转到微信
-			</view>
+			</view> -->
 		</view>
 	</view>
 </template>
