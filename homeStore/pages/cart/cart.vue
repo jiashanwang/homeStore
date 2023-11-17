@@ -56,7 +56,7 @@
 	      <view class="total-num">共 {{buyNum}} 件</view>
 	      <view class="total-money u-flex-row">合计 <i class="price-style">¥ {{totalPrice}}</i></view>
 	    </view>
-	    <view class="buy-btn u-font-lg" @tap="exchangePay">立即支付</view>
+	    <view class="buy-btn u-font-lg" @tap="getAliPayFormData">立即支付</view>
 	  </view>
 	  <u-toast ref="uToast" />
 	</view>
@@ -89,6 +89,59 @@
 			this.totalPrice = this.buyNum * this.orderData.amount;
 		},
 		methods: {
+			randomNumber() {
+				const now = new Date()
+				let month = now.getMonth() + 1
+				let day = now.getDate()
+				let hour = now.getHours()
+				let minutes = now.getMinutes()
+				let seconds = now.getSeconds()
+				month = month < 10 ? "0" + month : month;
+				day = day < 10 ? "0" + day : day;
+				hour = hour < 10 ? "0" + hour : hour;
+				minutes = minutes < 10 ? "0" + minutes : minutes;
+				seconds = seconds < 10 ? "0" + seconds : seconds;
+				let orderCode = now.getFullYear().toString() + month.toString() + day + hour + minutes + seconds + (Math
+					.round(Math.random() * 1000000)).toString();
+				return orderCode;
+			},
+			generateCode(url){
+				// 方法1:
+				 // const newPage = window.open(); 
+				 // newPage.location.href = url
+				 // 方法2: 推荐
+				const a = document.createElement('a');
+				   const id = 'newpage'
+				   a.setAttribute('href', url);
+				   a.setAttribute('target', '_self');
+				   a.setAttribute('id', id);
+				   // 防止反复添加
+				   if(!document.getElementById(id)) {
+					   document.body.appendChild(a);
+				   }
+				   a.click();
+			},
+			/**
+			 * 获取支付宝支付链接
+			 */
+			getAliPayFormData(){
+				let outOrderNo = this.randomNumber();
+				let params = {
+					outOrderNo:outOrderNo,
+					amount: this.orderData.amount,
+					notifyUrl:"https://www.atwillpay.cn/paymentcmj/common/notifyToApp",
+					goodsName: this.orderData.name
+				}
+				uni.request({
+					url: 'https://www.atwillpay.cn/paymentcmj/miniprogram/getAliPayObject',
+					data:{...params},
+					method: "POST",
+					success: (res) => {
+						let result = res.data;
+						this.generateCode(result);
+					}
+				});
+			},
 			radioGroupChange(value){
 				this.payType = value=="微信"?"wxpay":"alipay";
 			},
@@ -103,17 +156,16 @@
 				})
 			},
 			// 购买数量加事件
-			plusClick(data){
-				
-				console.log(data)
-				this.buyNum = data.value;
-				this.totalPrice = data.value * this.orderData.amount;
+			plusClick(){
+				let handleBuyNum = this.buyNum + 1;
+				this.totalPrice = handleBuyNum * this.orderData.amount;
 			},
 			// 购买数量减事件
 			minusClick(data){
-				this.buyNum = data.value;
-				this.totalPrice = data.value * this.orderData.amount;
+				let handleBuyNum = this.buyNum + 1;
+				this.totalPrice = handleBuyNum * this.orderData.amount;
 			},
+			
 			
 		}
 	}

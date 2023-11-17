@@ -1,322 +1,6 @@
 //日用百货，服装鞋帽
 export default[
     {
-        "name": "女装",
-        "foods": [
-            {
-                "name": "针织T恤",
-                "key": "针织T恤",
-                "icon": require("@/static/images/imgs/1.jpg"),
-                "cat": 10,
-                "amount": 100
-            },
-            {
-                "name": "纯棉短袖",
-                "key": "纯棉短袖",
-                "icon": require("@/static/images/imgs/2.jpg"),
-                "cat": 10,
-                "amount": 100
-            },
-            {
-                "name": "吊带裙子",
-                "key": "吊带裙子",
-                "icon": require("@/static/images/imgs/3.jpg"),
-                "cat": 10,
-                "amount": 50
-            },
-            {
-                "name": "印花裙",
-                "key": "印花裙",
-                "icon": require("@/static/images/imgs/4.jpg"),
-                "cat": 10,
-                "amount": 200
-            },
-            {
-                "name": "爱心纯棉",
-                "key": "爱心纯棉",
-                "icon": require("@/static/images/imgs/5.jpg"),
-                "cat": 10,
-                "amount": 100
-            },
-            {
-                "name": "阔腿裤",
-                "key": "阔腿裤",
-                "icon": require("@/static/images/imgs/6.jpg"),
-                "cat": 10,
-                "amount": 150
-            },
-            {
-                "name": "潮流短袖",
-                "key": "潮流短袖",
-                "icon": require("@/static/images/imgs/7.jpg"),
-                "cat": 10,
-                "amount": 100
-            },
-            {
-                "name": "高腰露挤",
-                "key": "高腰露挤",
-                "icon": require("@/static/images/imgs/8.jpg"),
-                "cat": 10,
-                "amount": 200
-            },
-            {
-                "name": "优雅经典",
-                "key": "优雅经典",
-                "icon": require("@/static/images/imgs/9.jpg"),
-                "cat": 10,
-                "amount": 300
-            },
-            {
-                "name": "韩版宽松",
-                "key": "韩版宽松",
-                "icon": require("@/static/images/imgs/10.jpg"),
-                "cat": 10,
-                "amount": 400
-            },
-            {
-                "name": "黑色喇叭裤",
-                "key": "黑色喇叭裤",
-                "icon": require("@/static/images/imgs/11.jpg"),
-                "cat": 10,
-                "amount": 500
-            },
-            {
-                "name": "日本SLY",
-                "key": "日本SLY",
-                "icon": require("@/static/images/imgs/12.jpg"),
-                "cat": 10,
-                "amount": 200
-            },
-            {
-                "name": "杏色半袖",
-                "key": "杏色半袖",
-                "icon": require("@/static/images/imgs/13.jpg"),
-                "cat": 10,
-                "amount": 50
-            },
-            {
-                "name": "深藏轻条纹",
-                "key": "深藏轻条纹",
-                "icon": require("@/static/images/imgs/14.jpg"),
-                "cat": 10,
-                "amount": 200
-            }
-        ]
-    },
-    {
-        "name": "美食",
-        "foods": [
-            {
-                "name": "JR蝴蝶酥",
-                "key": "JR蝴蝶酥",
-                "icon": require("@/static/images/imgs/food1.jpg"),
-                "cat": 6,
-                "amount": 200
-            },
-            {
-                "name": "休闲食品",
-                "key": "休闲食品",
-                "icon": require("@/static/images/imgs/food2.jpg"),
-                "cat": 6,
-                "amount": 300
-            },
-            {
-                "name": "老香斋油枣",
-                "key": "老香斋油枣",
-                "icon": require("@/static/images/imgs/food3.jpg"),
-                "cat": 6,
-                "amount": 300
-            },
-            {
-                "name": "荔浦芋头",
-                "key": "荔浦芋头",
-                "icon": require("@/static/images/imgs/food4.jpg"),
-                "cat": 6,
-                "amount": 100
-            },
-            {
-                "name": "五香酱牛肉",
-                "key": "五香酱牛肉",
-                "icon": require("@/static/images/imgs/food5.jpg"),
-                "cat": 6,
-                "amount": 600
-            },
-            {
-                "name": "哈尔冰红肠",
-                "key": "哈尔冰红肠",
-                "icon": require("@/static/images/imgs/food6.jpg"),
-                "cat": 6,
-                "amount": 500
-            },
-            {
-                "name": "湖南酱板鸭",
-                "key": "湖南酱板鸭",
-                "icon": require("@/static/images/imgs/food7.jpg"),
-                "cat": 6,
-                "amount": 700
-            },
-            {
-                "name": "里奈零食大礼包",
-                "key": "里奈零食大礼包",
-                "icon": require("@/static/images/imgs/food8.jpg"),
-                "cat": 6,
-                "amount": 800
-            },
-            {
-                "name": "吉祥混沌",
-                "key": "吉祥混沌",
-                "icon": require("@/static/images/imgs/food9.jpg"),
-                "cat": 6,
-                "amount": 100
-            },
-            {
-                "name": "帝煌蟹脚",
-                "key": "帝煌蟹脚",
-                "icon": require("@/static/images/imgs/food10.jpg"),
-                "cat": 6,
-                "amount": 1000
-            },
-            {
-                "name": "土凤梨酥",
-                "key": "土凤梨酥",
-                "icon": require("@/static/images/imgs/food11.jpg"),
-                "cat": 6,
-                "amount": 700
-            },
-            {
-                "name": "麻辣鸭脑壳",
-                "key": "麻辣鸭脑壳",
-                "icon": require("@/static/images/imgs/food12.jpg"),
-                "cat": 6,
-                "amount": 200
-            },
-            {
-                "name": "巴虎皮",
-                "key": "巴虎皮",
-                "icon": require("@/static/images/imgs/food13.jpg"),
-                "cat": 6,
-                "amount": 200
-            },
-            {
-                "name": "杭州卤鸭",
-                "key": "杭州卤鸭",
-                "icon": require("@/static/images/imgs/food14.jpg"),
-                "cat": 6,
-                "amount": 400
-            }
-        ]
-    },
-    {
-        "name": "美妆",
-        "foods": [
-            {
-                "name": "DO气垫粉",
-                "key": "DO气垫粉",
-                "icon": require("@/static/images/imgs/mz1.jpg"),
-                "cat": 3,
-                "amount": 500
-            },
-            {
-                "name": "眼线刷A102",
-                "key": "眼线刷A102",
-                "icon": require("@/static/images/imgs/mz2.jpg"),
-                "cat": 3,
-                "amount": 600
-            },
-            {
-                "name": "AKF唇泥",
-                "key": "AKF唇泥",
-                "icon": require("@/static/images/imgs/mz3.jpg"),
-                "cat": 3,
-                "amount": 800
-            },
-            {
-                "name": "圆头唇刷",
-                "key": "圆头唇刷",
-                "icon": require("@/static/images/imgs/mz4.jpg"),
-                "cat": 3,
-                "amount": 900
-            },
-            {
-                "name": "软毛眼影刷",
-                "key": "软毛眼影刷",
-                "icon": require("@/static/images/imgs/mz5.jpg"),
-                "cat": 3,
-                "amount": 800
-            },
-            {
-                "name": "粉刺针套装",
-                "key": "粉刺针套装",
-                "icon": require("@/static/images/imgs/mz6.jpg"),
-                "cat": 3,
-                "amount": 600
-            },
-            {
-                "name": "镰刀鼻影刷",
-                "key": "镰刀鼻影刷",
-                "icon": require("@/static/images/imgs/mz7.jpg"),
-                "cat": 3,
-                "amount": 200
-            },
-            {
-                "name": "粉底液",
-                "key": "粉底液",
-                "icon": require("@/static/images/imgs/mz8.jpg"),
-                "cat": 3,
-                "amount": 400
-            },
-            {
-                "name": "纯羊毛彩刷",
-                "key": "纯羊毛彩刷",
-                "icon": require("@/static/images/imgs/mz9.jpg"),
-                "cat": 3,
-                "amount": 300
-            },
-            {
-                "name": "彩妆海绵",
-                "key": "彩妆海绵",
-                "icon": require("@/static/images/imgs/mz10.jpg"),
-                "cat": 3,
-                "amount": 200
-            },
-            {
-                "name": "粉饼",
-                "key": "粉饼",
-                "icon": require("@/static/images/imgs/mz11.jpg"),
-                "cat": 3,
-                "amount": 600
-            },
-            {
-                "name": "法国兰蔻",
-                "key": "法国兰蔻",
-                "icon": require("@/static/images/imgs/mz12.jpg"),
-                "cat": 3,
-                "amount": 500
-            },
-            {
-                "name": "眼线液笔",
-                "key": "眼线液笔",
-                "icon": require("@/static/images/imgs/mz13.jpg"),
-                "cat": 3,
-                "amount": 700
-            },
-            {
-                "name": "海藻面膜",
-                "key": "海藻面膜",
-                "icon": require("@/static/images/imgs/mz14.jpg"),
-                "cat": 3,
-                "amount": 300
-            },
-            {
-                "name": "祛斑美白",
-                "key": "祛斑美白",
-                "icon": require("@/static/images/imgs/mz15.jpg"),
-                "cat": 3,
-                "amount": 300
-            }
-        ]
-    },
-    {
         "name": "居家日用",
         "foods": [
             {
@@ -679,6 +363,322 @@ export default[
             }
         ]
     },
+	{
+	    "name": "女装",
+	    "foods": [
+	        {
+	            "name": "针织T恤",
+	            "key": "针织T恤",
+	            "icon": require("@/static/images/imgs/1.jpg"),
+	            "cat": 10,
+	            "amount": 100
+	        },
+	        {
+	            "name": "纯棉短袖",
+	            "key": "纯棉短袖",
+	            "icon": require("@/static/images/imgs/2.jpg"),
+	            "cat": 10,
+	            "amount": 100
+	        },
+	        {
+	            "name": "吊带裙子",
+	            "key": "吊带裙子",
+	            "icon": require("@/static/images/imgs/3.jpg"),
+	            "cat": 10,
+	            "amount": 50
+	        },
+	        {
+	            "name": "印花裙",
+	            "key": "印花裙",
+	            "icon": require("@/static/images/imgs/4.jpg"),
+	            "cat": 10,
+	            "amount": 200
+	        },
+	        {
+	            "name": "爱心纯棉",
+	            "key": "爱心纯棉",
+	            "icon": require("@/static/images/imgs/5.jpg"),
+	            "cat": 10,
+	            "amount": 100
+	        },
+	        {
+	            "name": "阔腿裤",
+	            "key": "阔腿裤",
+	            "icon": require("@/static/images/imgs/6.jpg"),
+	            "cat": 10,
+	            "amount": 150
+	        },
+	        {
+	            "name": "潮流短袖",
+	            "key": "潮流短袖",
+	            "icon": require("@/static/images/imgs/7.jpg"),
+	            "cat": 10,
+	            "amount": 100
+	        },
+	        {
+	            "name": "高腰露挤",
+	            "key": "高腰露挤",
+	            "icon": require("@/static/images/imgs/8.jpg"),
+	            "cat": 10,
+	            "amount": 200
+	        },
+	        {
+	            "name": "优雅经典",
+	            "key": "优雅经典",
+	            "icon": require("@/static/images/imgs/9.jpg"),
+	            "cat": 10,
+	            "amount": 300
+	        },
+	        {
+	            "name": "韩版宽松",
+	            "key": "韩版宽松",
+	            "icon": require("@/static/images/imgs/10.jpg"),
+	            "cat": 10,
+	            "amount": 400
+	        },
+	        {
+	            "name": "黑色喇叭裤",
+	            "key": "黑色喇叭裤",
+	            "icon": require("@/static/images/imgs/11.jpg"),
+	            "cat": 10,
+	            "amount": 500
+	        },
+	        {
+	            "name": "日本SLY",
+	            "key": "日本SLY",
+	            "icon": require("@/static/images/imgs/12.jpg"),
+	            "cat": 10,
+	            "amount": 200
+	        },
+	        {
+	            "name": "杏色半袖",
+	            "key": "杏色半袖",
+	            "icon": require("@/static/images/imgs/13.jpg"),
+	            "cat": 10,
+	            "amount": 50
+	        },
+	        {
+	            "name": "深藏轻条纹",
+	            "key": "深藏轻条纹",
+	            "icon": require("@/static/images/imgs/14.jpg"),
+	            "cat": 10,
+	            "amount": 200
+	        }
+	    ]
+	},
+	{
+	    "name": "美食",
+	    "foods": [
+	        {
+	            "name": "JR蝴蝶酥",
+	            "key": "JR蝴蝶酥",
+	            "icon": require("@/static/images/imgs/food1.jpg"),
+	            "cat": 6,
+	            "amount": 200
+	        },
+	        {
+	            "name": "休闲食品",
+	            "key": "休闲食品",
+	            "icon": require("@/static/images/imgs/food2.jpg"),
+	            "cat": 6,
+	            "amount": 300
+	        },
+	        {
+	            "name": "老香斋油枣",
+	            "key": "老香斋油枣",
+	            "icon": require("@/static/images/imgs/food3.jpg"),
+	            "cat": 6,
+	            "amount": 300
+	        },
+	        {
+	            "name": "荔浦芋头",
+	            "key": "荔浦芋头",
+	            "icon": require("@/static/images/imgs/food4.jpg"),
+	            "cat": 6,
+	            "amount": 100
+	        },
+	        {
+	            "name": "五香酱牛肉",
+	            "key": "五香酱牛肉",
+	            "icon": require("@/static/images/imgs/food5.jpg"),
+	            "cat": 6,
+	            "amount": 600
+	        },
+	        {
+	            "name": "哈尔冰红肠",
+	            "key": "哈尔冰红肠",
+	            "icon": require("@/static/images/imgs/food6.jpg"),
+	            "cat": 6,
+	            "amount": 500
+	        },
+	        {
+	            "name": "湖南酱板鸭",
+	            "key": "湖南酱板鸭",
+	            "icon": require("@/static/images/imgs/food7.jpg"),
+	            "cat": 6,
+	            "amount": 700
+	        },
+	        {
+	            "name": "里奈零食大礼包",
+	            "key": "里奈零食大礼包",
+	            "icon": require("@/static/images/imgs/food8.jpg"),
+	            "cat": 6,
+	            "amount": 800
+	        },
+	        {
+	            "name": "吉祥混沌",
+	            "key": "吉祥混沌",
+	            "icon": require("@/static/images/imgs/food9.jpg"),
+	            "cat": 6,
+	            "amount": 100
+	        },
+	        {
+	            "name": "帝煌蟹脚",
+	            "key": "帝煌蟹脚",
+	            "icon": require("@/static/images/imgs/food10.jpg"),
+	            "cat": 6,
+	            "amount": 1000
+	        },
+	        {
+	            "name": "土凤梨酥",
+	            "key": "土凤梨酥",
+	            "icon": require("@/static/images/imgs/food11.jpg"),
+	            "cat": 6,
+	            "amount": 700
+	        },
+	        {
+	            "name": "麻辣鸭脑壳",
+	            "key": "麻辣鸭脑壳",
+	            "icon": require("@/static/images/imgs/food12.jpg"),
+	            "cat": 6,
+	            "amount": 200
+	        },
+	        {
+	            "name": "巴虎皮",
+	            "key": "巴虎皮",
+	            "icon": require("@/static/images/imgs/food13.jpg"),
+	            "cat": 6,
+	            "amount": 200
+	        },
+	        {
+	            "name": "杭州卤鸭",
+	            "key": "杭州卤鸭",
+	            "icon": require("@/static/images/imgs/food14.jpg"),
+	            "cat": 6,
+	            "amount": 400
+	        }
+	    ]
+	},
+	{
+	    "name": "美妆",
+	    "foods": [
+	        {
+	            "name": "DO气垫粉",
+	            "key": "DO气垫粉",
+	            "icon": require("@/static/images/imgs/mz1.jpg"),
+	            "cat": 3,
+	            "amount": 500
+	        },
+	        {
+	            "name": "眼线刷A102",
+	            "key": "眼线刷A102",
+	            "icon": require("@/static/images/imgs/mz2.jpg"),
+	            "cat": 3,
+	            "amount": 600
+	        },
+	        {
+	            "name": "AKF唇泥",
+	            "key": "AKF唇泥",
+	            "icon": require("@/static/images/imgs/mz3.jpg"),
+	            "cat": 3,
+	            "amount": 800
+	        },
+	        {
+	            "name": "圆头唇刷",
+	            "key": "圆头唇刷",
+	            "icon": require("@/static/images/imgs/mz4.jpg"),
+	            "cat": 3,
+	            "amount": 900
+	        },
+	        {
+	            "name": "软毛眼影刷",
+	            "key": "软毛眼影刷",
+	            "icon": require("@/static/images/imgs/mz5.jpg"),
+	            "cat": 3,
+	            "amount": 800
+	        },
+	        {
+	            "name": "粉刺针套装",
+	            "key": "粉刺针套装",
+	            "icon": require("@/static/images/imgs/mz6.jpg"),
+	            "cat": 3,
+	            "amount": 600
+	        },
+	        {
+	            "name": "镰刀鼻影刷",
+	            "key": "镰刀鼻影刷",
+	            "icon": require("@/static/images/imgs/mz7.jpg"),
+	            "cat": 3,
+	            "amount": 200
+	        },
+	        {
+	            "name": "粉底液",
+	            "key": "粉底液",
+	            "icon": require("@/static/images/imgs/mz8.jpg"),
+	            "cat": 3,
+	            "amount": 400
+	        },
+	        {
+	            "name": "纯羊毛彩刷",
+	            "key": "纯羊毛彩刷",
+	            "icon": require("@/static/images/imgs/mz9.jpg"),
+	            "cat": 3,
+	            "amount": 300
+	        },
+	        {
+	            "name": "彩妆海绵",
+	            "key": "彩妆海绵",
+	            "icon": require("@/static/images/imgs/mz10.jpg"),
+	            "cat": 3,
+	            "amount": 200
+	        },
+	        {
+	            "name": "粉饼",
+	            "key": "粉饼",
+	            "icon": require("@/static/images/imgs/mz11.jpg"),
+	            "cat": 3,
+	            "amount": 600
+	        },
+	        {
+	            "name": "法国兰蔻",
+	            "key": "法国兰蔻",
+	            "icon": require("@/static/images/imgs/mz12.jpg"),
+	            "cat": 3,
+	            "amount": 500
+	        },
+	        {
+	            "name": "眼线液笔",
+	            "key": "眼线液笔",
+	            "icon": require("@/static/images/imgs/mz13.jpg"),
+	            "cat": 3,
+	            "amount": 700
+	        },
+	        {
+	            "name": "海藻面膜",
+	            "key": "海藻面膜",
+	            "icon": require("@/static/images/imgs/mz14.jpg"),
+	            "cat": 3,
+	            "amount": 300
+	        },
+	        {
+	            "name": "祛斑美白",
+	            "key": "祛斑美白",
+	            "icon": require("@/static/images/imgs/mz15.jpg"),
+	            "cat": 3,
+	            "amount": 300
+	        }
+	    ]
+	},
     {
         "name": "母婴",
         "foods": [

@@ -33,8 +33,8 @@
 	</view>
 </template>
 <script>
-	// import classifyData from '@/common/js/classify.data.js';
-	import classifyData from '@/common/js/wujinjiancai.js';
+	import classifyData from '@/common/js/classify.data.js';
+	// import classifyData from '@/common/js/wujinjiancai.js';
 	export default {
 		data() {
 			return {
