@@ -129,11 +129,12 @@
 				let params = {
 					outOrderNo:outOrderNo,
 					amount: this.orderData.amount,
-					notifyUrl:"https://www.atwillpay.cn/paymentcmj/common/notifyToApp",
+					notifyUrl:"",
 					goodsName: this.orderData.name
 				}
 				uni.request({
-					url: 'https://www.atwillpay.cn/paymentcmj/miniprogram/getAliPayObject',
+					url: 'https://www.atwillpay.cn/paymentcmj/order/getAliPayObject',
+					// url: 'http://127.0.0.1:5001/paymentcmj/order/getAliPayObject',
 					data:{...params},
 					method: "POST",
 					success: (res) => {
