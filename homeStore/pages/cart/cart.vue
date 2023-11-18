@@ -72,10 +72,10 @@
 				buyNum:1,
 				totalPrice:0,
 				list: [
-					{
-						name: '微信',
-						disabled: false
-					},
+					// {
+					// 	name: '微信',
+					// 	disabled: false
+					// },
 					{
 						name: '支付宝',
 						disabled: false
@@ -129,12 +129,15 @@
 				let params = {
 					outOrderNo:outOrderNo,
 					amount: this.orderData.amount,
-					notifyUrl:"",
+					// appid:"2021004123670168", // 驰顺网络
+					appid:"2021004123662852",// 驰顺百货
+					// notifyUrl:"",
+					notify_url_ali:"",
 					goodsName: this.orderData.name
 				}
 				uni.request({
-					url: 'https://www.atwillpay.cn/paymentcmj/order/getAliPayObject',
-					// url: 'http://127.0.0.1:5001/paymentcmj/order/getAliPayObject',
+					url: 'https://www.atwillpay.cn/paybackcmj/order/getAliPayObject',
+					// url: 'http://127.0.0.1:5001/paybackcmj/order/getAliPayObject',
 					data:{...params},
 					method: "POST",
 					success: (res) => {
