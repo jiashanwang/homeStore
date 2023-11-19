@@ -78,7 +78,7 @@
 					// },
 					{
 						name: '支付宝',
-						disabled: false
+						disabled: true
 					}
 				],
 				value: '微信',
@@ -130,7 +130,8 @@
 					outOrderNo:outOrderNo,
 					amount: this.orderData.amount,
 					// appid:"2021004123670168", // 驰顺网络
-					appid:"2021004123662852",// 驰顺百货
+					// appid:"2021004123662852",// 驰顺百货
+					appid:"2021004125645133",// 庭安网络 庭行百货
 					// notifyUrl:"",
 					notify_url_ali:"",
 					goodsName: this.orderData.name
@@ -166,7 +167,7 @@
 			},
 			// 购买数量减事件
 			minusClick(data){
-				let handleBuyNum = this.buyNum + 1;
+				let handleBuyNum = this.buyNum - 1;
 				this.totalPrice = handleBuyNum * this.orderData.amount;
 			},
 			

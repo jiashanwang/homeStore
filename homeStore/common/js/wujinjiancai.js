@@ -196,109 +196,109 @@ export default[
         "name": "淋浴龙头/顶喷",
         "foods": [
             {
-                "name": "DO气垫粉",
-                "key": "DO气垫粉",
-                "icon": require("@/static/images/imgs/mz1.jpg"),
+                "name": "BSITN淋浴水龙头卫生间冷热混水阀黄铜加厚暗装花洒开关混水器B7201",
+                "key": "BSITN淋浴水龙头卫生间冷热混水阀黄铜加厚暗装花洒开关混水器B7201",
+                "icon": require("@/static/images/wujinImgs/lylt1.jpg"),
                 "cat": 3,
-                "amount": 166
+                "amount": 100
             },
             {
-                "name": "眼线刷A102",
-                "key": "眼线刷A102",
-                "icon": require("@/static/images/imgs/mz2.jpg"),
+                "name": "箭牌（arrow）全铜混水阀淋浴龙头卫生间冷热水龙头浴室简易花洒套装浴缸龙头 B4升降款+脉冲三档手持花洒套装",
+                "key": "箭牌（arrow）全铜混水阀淋浴龙头卫生间冷热水龙头浴室简易花洒套装浴缸龙头 B4升降款+脉冲三档手持花洒套装",
+                "icon": require("@/static/images/wujinImgs/lylt2.jpg"),
                 "cat": 3,
-                "amount": 79
+                "amount": 200
             },
             {
-                "name": "AKF唇泥",
-                "key": "AKF唇泥",
-                "icon": require("@/static/images/imgs/mz3.jpg"),
+                "name": "埃美柯 （AMICO）淋浴花洒套装 增压卫浴家用淋雨器全铜龙头可升降花洒 【店铺优选】A款",
+                "key": "埃美柯 （AMICO）淋浴花洒套装 增压卫浴家用淋雨器全铜龙头可升降花洒 【店铺优选】A款",
+                "icon": require("@/static/images/wujinImgs/lylt3.jpg"),
                 "cat": 3,
                 "amount": 180
             },
             {
-                "name": "圆头唇刷",
-                "key": "圆头唇刷",
-                "icon": require("@/static/images/imgs/mz4.jpg"),
+                "name": "四季沐歌 MICOE 卫浴淋浴花洒套装 增压花洒喷头浴缸花洒套装M-A3023-1D",
+                "key": "四季沐歌 MICOE 卫浴淋浴花洒套装 增压花洒喷头浴缸花洒套装M-A3023-1D",
+                "icon": require("@/static/images/wujinImgs/lylt4.jpg"),
                 "cat": 3,
-                "amount": 101
+                "amount": 100
             },
             {
-                "name": "软毛眼影刷",
-                "key": "软毛眼影刷",
-                "icon": require("@/static/images/imgs/mz5.jpg"),
+                "name": "科固淋浴龙头混水阀套装卫浴冷热三联洗澡开关浴缸混水龙头K211108",
+                "key": "科固淋浴龙头混水阀套装卫浴冷热三联洗澡开关浴缸混水龙头K211108",
+                "icon": require("@/static/images/wujinImgs/lylt5.jpg"),
                 "cat": 3,
-                "amount": 175
+                "amount": 150
             },
             {
-                "name": "粉刺针套装",
-                "key": "粉刺针套装",
-                "icon": require("@/static/images/imgs/mz6.jpg"),
+                "name": "名爵（MEJUE）淋浴水龙头混水阀套装卫浴冷热三联洗澡浴缸混水龙头Z-05207",
+                "key": "名爵（MEJUE）淋浴水龙头混水阀套装卫浴冷热三联洗澡浴缸混水龙头Z-05207",
+                "icon": require("@/static/images/wujinImgs/lylt6.jpg"),
                 "cat": 3,
-                "amount": 168
+                "amount": 200
             },
             {
-                "name": "镰刀鼻影刷",
-                "key": "镰刀鼻影刷",
-                "icon": require("@/static/images/imgs/mz7.jpg"),
+                "name": "卓浴淋浴龙头铜三联卫生间水龙头冷热混水阀暗装浴室浴缸花洒喷头套装 铜合金款龙头加厚，坚固耐用",
+                "key": "卓浴淋浴龙头铜三联卫生间水龙头冷热混水阀暗装浴室浴缸花洒喷头套装 铜合金款龙头加厚，坚固耐用",
+                "icon": require("@/static/images/wujinImgs/lylt7.jpg"),
                 "cat": 3,
-                "amount": 153
+                "amount": 300
             },
             {
-                "name": "粉底液",
-                "key": "粉底液",
-                "icon": require("@/static/images/imgs/mz8.jpg"),
+                "name": "箭牌（arrow）全铜混水阀淋浴龙头卫生间冷热水龙头浴室简易花洒套装浴缸龙头 B4升降款+脉冲三档手持花洒套装",
+                "key": "箭牌（arrow）全铜混水阀淋浴龙头卫生间冷热水龙头浴室简易花洒套装浴缸龙头 B4升降款+脉冲三档手持花洒套装",
+                "icon": require("@/static/images/wujinImgs/lylt8.jpg"),
                 "cat": 3,
-                "amount": 105
+                "amount": 400
             },
             {
-                "name": "纯羊毛彩刷",
-                "key": "纯羊毛彩刷",
-                "icon": require("@/static/images/imgs/mz9.jpg"),
+                "name": "浴安特精铜浴缸龙头浴室卫生间混水阀 暗装花洒开关防爆防冻热水器通用",
+                "key": "浴安特精铜浴缸龙头浴室卫生间混水阀 暗装花洒开关防爆防冻热水器通用",
+                "icon": require("@/static/images/wujinImgs/lylt9.jpg"),
                 "cat": 3,
-                "amount": 69
+                "amount": 500
             },
             {
-                "name": "彩妆海绵",
-                "key": "彩妆海绵",
-                "icon": require("@/static/images/imgs/mz10.jpg"),
+                "name": "九牧（JOMOO）淋浴龙头精铜混水阀冷热沐浴花洒洗澡浴缸卫浴浴室水龙头 3576-050（不带下出水",
+                "key": "九牧（JOMOO）淋浴龙头精铜混水阀冷热沐浴花洒洗澡浴缸卫浴浴室水龙头 3576-050（不带下出水",
+                "icon": require("@/static/images/wujinImgs/lylt9.jpg"),
                 "cat": 3,
-                "amount": 134
+                "amount": 500
             },
             {
-                "name": "粉饼",
-                "key": "粉饼",
-                "icon": require("@/static/images/imgs/mz11.jpg"),
+                "name": "京东京造 多功能淋浴花洒全套装 大顶喷淋浴器双自洁除垢 手持增压3档喷头",
+                "key": "京东京造 多功能淋浴花洒全套装 大顶喷淋浴器双自洁除垢 手持增压3档喷头",
+                "icon": require("@/static/images/wujinImgs/lylt10.jpg"),
                 "cat": 3,
-                "amount": 93
+                "amount": 300
             },
             {
-                "name": "法国兰蔻",
-                "key": "法国兰蔻",
-                "icon": require("@/static/images/imgs/mz12.jpg"),
+                "name": "金牌柏温 全铜混水阀冷热浴缸水龙头卫生间洗澡沐浴三联双孔热水器混合阀 淋浴龙头（带安装配件）",
+                "key": "金牌柏温 全铜混水阀冷热浴缸水龙头卫生间洗澡沐浴三联双孔热水器混合阀 淋浴龙头（带安装配件）",
+                "icon": require("@/static/images/wujinImgs/lylt11.jpg"),
                 "cat": 3,
-                "amount": 118
+                "amount": 120
             },
             {
-                "name": "眼线液笔",
-                "key": "眼线液笔",
-                "icon": require("@/static/images/imgs/mz13.jpg"),
+                "name": "箭牌（ARROW） 精铜龙头淋浴花洒套装增压花洒喷头手持花洒全套莲蓬头淋浴器 红点奖背喷花洒 AE33104MS",
+                "key": "箭牌（ARROW） 精铜龙头淋浴花洒套装增压花洒喷头手持花洒全套莲蓬头淋浴器 红点奖背喷花洒 AE33104MS",
+                "icon": require("@/static/images/wujinImgs/lylt12.jpg"),
                 "cat": 3,
-                "amount": 153
+                "amount": 150
             },
             {
-                "name": "海藻面膜",
-                "key": "海藻面膜",
-                "icon": require("@/static/images/imgs/mz14.jpg"),
+                "name": "莱尔诗丹淋浴混水阀 铜主体冷热三联混水龙头 洗澡开关浴缸水龙头LD10203",
+                "key": "莱尔诗丹淋浴混水阀 铜主体冷热三联混水龙头 洗澡开关浴缸水龙头LD10203",
+                "icon": require("@/static/images/wujinImgs/lylt13.jpg"),
                 "cat": 3,
-                "amount": 91
+                "amount": 300
             },
             {
-                "name": "祛斑美白",
-                "key": "祛斑美白",
-                "icon": require("@/static/images/imgs/mz15.jpg"),
+                "name": "蒙娜丽莎（MONA LISA） 卫浴增压淋浴花洒套装 单手持花洒淋浴器喷头莲蓬头 五档增压花洒黑色",
+                "key": "蒙娜丽莎（MONA LISA） 卫浴增压淋浴花洒套装 单手持花洒淋浴器喷头莲蓬头 五档增压花洒黑色",
+                "icon": require("@/static/images/wujinImgs/lylt14.jpg"),
                 "cat": 3,
-                "amount": 65
+                "amount": 500
             }
         ]
     },
@@ -306,95 +306,95 @@ export default[
         "name": "水槽系列",
         "foods": [
             {
-                "name": "调料置物架",
-                "key": "调料置物架",
-                "icon": require("@/static/images/imgs/jujiariyong1.jpg"),
+                "name": "浴美优品水槽304不锈钢手工加厚水槽洗碗池容量大单槽厨房洗菜盆沥水蓝 50*40单槽套餐a",
+                "key": "浴美优品水槽304不锈钢手工加厚水槽洗碗池容量大单槽厨房洗菜盆沥水蓝 50*40单槽套餐a",
+                "icon": require("@/static/images/wujinImgs/sc1.jpg"),
                 "cat": 4,
-                "amount": 116
+                "amount": 120
             },
             {
-                "name": "纸巾",
-                "key": "纸巾",
-                "icon": require("@/static/images/imgs/jujiariyong2.jpg"),
+                "name": "奥克斯厨房水槽大单槽台下盆 不锈钢洗菜盆一体盆 水盆厨房水池盆洗碗池 A裸槽(不含龙头) 尺寸-70*43CM",
+                "key": "奥克斯厨房水槽大单槽台下盆 不锈钢洗菜盆一体盆 水盆厨房水池盆洗碗池 A裸槽(不含龙头) 尺寸-70*43CM",
+                "icon": require("@/static/images/wujinImgs/sc2.jpg"),
                 "cat": 4,
-                "amount": 122
+                "amount": 120
             },
             {
-                "name": "驱蚊用品",
-                "key": "驱蚊用品",
-                "icon": require("@/static/images/imgs/jujiariyong3.jpg"),
+                "name": "莱尔诗丹（Larsd）304不锈钢水槽大单槽 拉丝厨房洗菜盆带不锈钢厨房龙头LR5843",
+                "key": "莱尔诗丹（Larsd）304不锈钢水槽大单槽 拉丝厨房洗菜盆带不锈钢厨房龙头LR5843",
+                "icon": require("@/static/images/wujinImgs/sc3.jpg"),
                 "cat": 4,
-                "amount": 125
+                "amount": 200
             },
             {
-                "name": "收纳神器",
-                "key": "收纳神器",
-                "icon": require("@/static/images/imgs/jujiariyong4.jpg"),
+                "name": "箭牌（ARROW）厨房单槽聚宝盆水槽纳米304不锈钢大口径洗菜盆台下盆 【双重过滤】75*48+不含龙头",
+                "key": "箭牌（ARROW）厨房单槽聚宝盆水槽纳米304不锈钢大口径洗菜盆台下盆 【双重过滤】75*48+不含龙头",
+                "icon": require("@/static/images/wujinImgs/sc4.jpg"),
                 "cat": 4,
-                "amount": 94
+                "amount": 900
             },
             {
-                "name": "厨房用品",
-                "key": "厨房用品",
-                "icon": require("@/static/images/imgs/jujiariyong5.jpg"),
+                "name": "奈田（NTNO）厨房水槽洗菜盆一体盆大单槽纳米304不锈钢阶梯洗碗槽手工洗菜池 68*46B-抽拉龙头",
+                "key": "奈田（NTNO）厨房水槽洗菜盆一体盆大单槽纳米304不锈钢阶梯洗碗槽手工洗菜池 68*46B-抽拉龙头",
+                "icon": require("@/static/images/wujinImgs/sc5.jpg"),
                 "cat": 4,
-                "amount": 147
+                "amount":800
             },
             {
-                "name": "厨房烹饪",
-                "key": "烹饪",
-                "icon": require("@/static/images/imgs/jujiariyong6.jpg"),
+                "name": "荣事达（Royalstar）304不锈钢水槽 洗碗池大容量单槽厨房洗菜盆一体盆配抽拉龙头",
+                "key": "荣事达（Royalstar）304不锈钢水槽 洗碗池大容量单槽厨房洗菜盆一体盆配抽拉龙头",
+                "icon": require("@/static/images/wujinImgs/sc6.jpg"),
                 "cat": 4,
-                "amount": 105
+                "amount": 700
             },
             {
-                "name": "衣物晾晒",
-                "key": "衣物晾晒",
-                "icon": require("@/static/images/imgs/jujiariyong7.jpg"),
+                "name": "四季沐歌（MICOE）厨房水槽大单槽 飞雨瀑布槽纳米304不锈钢洗菜盆 多功能阶梯水槽 飞雨瀑布槽75*46cm【黑曜灰】",
+                "key": "四季沐歌（MICOE）厨房水槽大单槽 飞雨瀑布槽纳米304不锈钢洗菜盆 多功能阶梯水槽 飞雨瀑布槽75*46cm【黑曜灰】",
+                "icon": require("@/static/images/wujinImgs/sc7.jpg"),
                 "cat": 4,
-                "amount": 73
+                "amount": 600
             },
             {
-                "name": "衣物护理",
-                "key": "衣物护理",
-                "icon": require("@/static/images/imgs/jujiariyong8.jpg"),
+                "name": "尔沫（EM）厨房水槽不锈钢洗菜盆单槽洗菜池洗碗抗油台上台中台下大单槽 【68*45不锈钢】+抽拉冷热龙头",
+                "key": "尔沫（EM）厨房水槽不锈钢洗菜盆单槽洗菜池洗碗抗油台上台中台下大单槽 【68*45不锈钢】+抽拉冷热龙头",
+                "icon": require("@/static/images/wujinImgs/sc8.jpg"),
                 "cat": 4,
-                "amount": 159
+                "amount": 150
             },
             {
-                "name": "宠物用品",
-                "key": "宠物用品",
-                "icon": require("@/static/images/imgs/jujiariyong9.jpg"),
+                "name": "奈田（NTNO）瀑布水槽厨房洗菜盆一体盆大单槽按键数显纳米304不锈钢洗碗槽 C套餐数显飞雨+净水+洗杯器+台控 68*45cm",
+                "key": "奈田（NTNO）瀑布水槽厨房洗菜盆一体盆大单槽按键数显纳米304不锈钢洗碗槽 C套餐数显飞雨+净水+洗杯器+台控 68*45cm",
+                "icon": require("@/static/images/wujinImgs/sc9.jpg"),
                 "cat": 4,
-                "amount": 52
+                "amount": 100
             },
             {
-                "name": "医药保健",
-                "key": "医药",
-                "icon": require("@/static/images/imgs/jujiariyong10.jpg"),
+                "name": "尔沫（EM） 洗菜盆单槽黑色手工水槽不锈钢洗菜池菜盆台上台下盆大单槽 【68*45】抗菌抗污水槽+抽拉龙头",
+                "key": "尔沫（EM） 洗菜盆单槽黑色手工水槽不锈钢洗菜池菜盆台上台下盆大单槽 【68*45】抗菌抗污水槽+抽拉龙头",
+                "icon": require("@/static/images/wujinImgs/sc9.jpg"),
                 "cat": 4,
-                "amount": 86
+                "amount": 200
             },
             {
-                "name": "日用百货",
-                "key": "百货",
-                "icon": require("@/static/images/imgs/jujiariyong11.jpg"),
+                "name": "箭牌（ARROW）水槽厨房洗菜盆不锈钢家用日式大单槽AE5575417G21-SS·75*48",
+                "key": "箭牌（ARROW）水槽厨房洗菜盆不锈钢家用日式大单槽AE5575417G21-SS·75*48",
+                "icon": require("@/static/images/wujinImgs/sc10.jpg"),
                 "cat": 4,
-                "amount": 193
+                "amount": 300
             },
             {
-                "name": "清洁用品",
-                "key": "清洁",
-                "icon": require("@/static/images/imgs/jujiariyong12.jpg"),
+                "name": "妙泉海厨房水槽大单槽台下盆不锈钢洗菜一体盆洗菜池水池盆洗碗槽黑金刚 7545主槽+全配件",
+                "key": "妙泉海厨房水槽大单槽台下盆不锈钢洗菜一体盆洗菜池水池盆洗碗槽黑金刚 7545主槽+全配件",
+                "icon": require("@/static/images/wujinImgs/sc11.jpg"),
                 "cat": 4,
-                "amount": 198
+                "amount": 200
             },
             {
-                "name": "绿植园艺",
-                "key": "绿植",
-                "icon": require("@/static/images/imgs/jujiariyong13.jpg"),
+                "name": "卫达斯厨房水槽大单槽台下盆不锈钢洗菜盆一体盆洗菜池厨房水池盆洗碗槽 75*45cm配冷热三档抽拉龙头",
+                "key": "卫达斯厨房水槽大单槽台下盆不锈钢洗菜盆一体盆洗菜池厨房水池盆洗碗槽 75*45cm配冷热三档抽拉龙头",
+                "icon": require("@/static/images/wujinImgs/sc12.jpg"),
                 "cat": 4,
-                "amount": 105
+                "amount": 100
             }
         ]
     },
@@ -402,163 +402,81 @@ export default[
         "name": "面盆龙头",
         "foods": [
             {
-                "name": "爸爸装",
-                "key": "爸爸装",
-                "icon": require("@/static/images/imgs/nz1.jpg"),
-                "cat": 12,
-                "amount": 74
-            },
-            {
-                "name": "牛仔裤",
-                "key": "牛仔裤",
-                "icon": require("@/static/images/imgs/nz2.jpg"),
+                "name": "莱尔诗丹（Larsd）面盆水龙头 卫生间浴室柜冷热水龙头 洗脸盆台盆面盆龙头LD89032 双360°旋转面盆龙头",
+                "key": "莱尔诗丹（Larsd）面盆水龙头 卫生间浴室柜冷热水龙头 洗脸盆台盆面盆龙头LD89032 双360°旋转面盆龙头",
+                "icon": require("@/static/images/wujinImgs/mplt1.jpg"),
                 "cat": 12,
                 "amount": 100
             },
             {
-                "name": "衬衫",
-                "key": "衬衫",
-                "icon": require("@/static/images/imgs/nz3.jpg"),
+                "name": "埃美柯 （AMICO）全铜面盆冷热水龙头防溅 洗手盆龙头单孔单把台下台上 精铜主体MD601",
+                "key": "埃美柯 （AMICO）全铜面盆冷热水龙头防溅 洗手盆龙头单孔单把台下台上 精铜主体MD601",
+                "icon": require("@/static/images/wujinImgs/mplt2.jpg"),
                 "cat": 12,
-                "amount": 109
+                "amount": 1000
             },
             {
-                "name": "休闲裤",
-                "key": "休闲裤",
-                "icon": require("@/static/images/imgs/nz4.jpg"),
+                "name": "名爵（MEJUE）面盆水龙头冷热水龙头 浴室卫生间洗脸盆洗手盆水龙头Z-012395",
+                "key": "名爵（MEJUE）面盆水龙头冷热水龙头 浴室卫生间洗脸盆洗手盆水龙头Z-012395",
+                "icon": require("@/static/images/wujinImgs/mplt3.jpg"),
                 "cat": 12,
-                "amount": 82
+                "amount": 600
             },
             {
-                "name": "外套",
-                "key": "外套",
-                "icon": require("@/static/images/imgs/nz5.jpg"),
+                "name": "京东京造 浴室洗脸盆水龙头冷热双控 卫生间洗手盆 360°双旋转 304不锈钢",
+                "key": "京东京造 浴室洗脸盆水龙头冷热双控 卫生间洗手盆 360°双旋转 304不锈钢",
+                "icon": require("@/static/images/wujinImgs/mplt4.jpg"),
                 "cat": 12,
-                "amount": 173
+                "amount": 500
             },
             {
-                "name": "T恤",
-                "key": "T恤",
-                "icon": require("@/static/images/imgs/nz6.jpg"),
+                "name": "埃美柯 （AMICO）厨房洗菜盆水龙头冷热 全铜可旋转加高家用水槽龙头 家用款式XG621",
+                "key": "埃美柯 （AMICO）厨房洗菜盆水龙头冷热 全铜可旋转加高家用水槽龙头 家用款式XG621",
+                "icon": require("@/static/images/wujinImgs/mplt5.jpg"),
                 "cat": 12,
-                "amount": 187
+                "amount": 170
             },
             {
-                "name": "套装",
-                "key": "套装",
-                "icon": require("@/static/images/imgs/nz7.jpg"),
+                "name": "BSITN 304不锈钢面盆水龙头洗脸盆单冷快开卫生间洗手台盆水龙头B8039",
+                "key": "BSITN 304不锈钢面盆水龙头洗脸盆单冷快开卫生间洗手台盆水龙头B8039",
+                "icon": require("@/static/images/wujinImgs/mplt6.jpg"),
                 "cat": 12,
-                "amount": 118
+                "amount": 200
             },
             {
-                "name": "运动裤",
-                "key": "运动裤",
-                "icon": require("@/static/images/imgs/nz8.jpg"),
+                "name": "科固（KEGOO）K01017 304不锈钢面盆龙头 洗手盆单冷水龙头 不含进水管",
+                "key": "科固（KEGOO）K01017 304不锈钢面盆龙头 洗手盆单冷水龙头 不含进水管",
+                "icon": require("@/static/images/wujinImgs/mplt7.jpg"),
                 "cat": 12,
-                "amount": 192
+                "amount": 500
             },
             {
-                "name": "马甲/背心",
-                "key": "马甲背心",
-                "icon": require("@/static/images/imgs/nz9.jpg"),
+                "name": "科固（KEGOO）K01017 304不锈钢面盆龙头 洗手盆单冷水龙头 不含进水管",
+                "key": "科固（KEGOO）K01017 304不锈钢面盆龙头 洗手盆单冷水龙头 不含进水管",
+                "icon": require("@/static/images/wujinImgs/mplt8.jpg"),
                 "cat": 12,
-                "amount": 140
+                "amount": 300
             },
             {
-                "name": "POLO衫",
-                "key": "POLO衫",
-                "icon": require("@/static/images/imgs/nz10.jpg"),
+                "name": "尔沫（EM）枪灰色水龙头洗脸盆卫生间万向旋转机械臂浴室洗手盆冷热面盆龙头 枪灰【四档/精铜】冷热龙头+80CM",
+                "key": "尔沫（EM）枪灰色水龙头洗脸盆卫生间万向旋转机械臂浴室洗手盆冷热面盆龙头 枪灰【四档/精铜】冷热龙头+80CM",
+                "icon": require("@/static/images/wujinImgs/mplt9.jpg"),
                 "cat": 12,
-                "amount": 94
+                "amount": 220
             },
             {
-                "name": "商务装",
-                "key": "商务装",
-                "icon": require("@/static/images/imgs/nz11.jpg"),
+                "name": "X-GRKE【德国】水龙头洗脸盆家用静音卫生间厕所洗手池面盆冷热水龙头 冷热龙头【优质钢材】健康无铅 带80cm冷热管",
+                "key": "X-GRKE【德国】水龙头洗脸盆家用静音卫生间厕所洗手池面盆冷热水龙头 冷热龙头【优质钢材】健康无铅 带80cm冷热管",
+                "icon": require("@/static/images/wujinImgs/mplt10.jpg"),
                 "cat": 12,
-                "amount": 88
-            }
-        ]
-    },
-    {
-        "name": "淋浴/花洒",
-        "foods": [
-            {
-                "name": "单鞋",
-                "key": "单鞋",
-                "icon": require("@/static/images/imgs/xz1.jpg"),
-                "cat": 5,
-                "amount": 150
+                "amount": 199
             },
             {
-                "name": "皮鞋",
-                "key": "皮鞋",
-                "icon": require("@/static/images/imgs/xz2.jpg"),
-                "cat": 5,
-                "amount": 149
-            },
-            {
-                "name": "帆布鞋",
-                "key": "帆布鞋",
-                "icon": require("@/static/images/imgs/xz3.jpg"),
-                "cat": 5,
-                "amount": 185
-            },
-            {
-                "name": "北京老布鞋",
-                "key": "北京老布鞋",
-                "icon": require("@/static/images/imgs/xz4.jpg"),
-                "cat": 5,
-                "amount": 174
-            },
-            {
-                "name": "运动鞋",
-                "key": "运动鞋",
-                "icon": require("@/static/images/imgs/xz5.jpg"),
-                "cat": 5,
-                "amount": 112
-            },
-            {
-                "name": "拖鞋",
-                "key": "拖鞋",
-                "icon": require("@/static/images/imgs/xz6.jpg"),
-                "cat": 5,
-                "amount": 94
-            },
-            {
-                "name": "凉鞋",
-                "key": "凉鞋",
-                "icon": require("@/static/images/imgs/xz7.jpg"),
-                "cat": 5,
-                "amount": 148
-            },
-            {
-                "name": "休闲鞋",
-                "key": "休闲鞋",
-                "icon": require("@/static/images/imgs/xz8.jpg"),
-                "cat": 5,
-                "amount": 100
-            },
-            {
-                "name": "高跟鞋",
-                "key": "高跟鞋",
-                "icon": require("@/static/images/imgs/xz9.jpg"),
-                "cat": 5,
-                "amount": 109
-            },
-            {
-                "name": "老人鞋",
-                "key": "老人鞋",
-                "icon": require("@/static/images/imgs/xz10.jpg"),
-                "cat": 5,
-                "amount": 83
-            },
-            {
-                "name": "懒人鞋",
-                "key": "懒人鞋",
-                "icon": require("@/static/images/imgs/xz11.jpg"),
-                "cat": 5,
-                "amount": 197
+                "name": "高仪（GROHE） 原装进口面盆龙头 家用台下盆水龙头 卫生间冷热水龙头2345400C",
+                "key": "高仪（GROHE） 原装进口面盆龙头 家用台下盆水龙头 卫生间冷热水龙头2345400C",
+                "icon": require("@/static/images/wujinImgs/mplt11.jpg"),
+                "cat": 12,
+                "amount": 198
             }
         ]
     },
@@ -566,102 +484,102 @@ export default[
         "name": "喷头/软管",
         "foods": [
             {
-                "name": "数据线",
-                "key": "数据线",
-                "icon": require("@/static/images/imgs/sm1.jpg"),
+                "name": "箭牌 (ARROW)浴室卫生间不锈钢软管花洒喷头软管(1.5米)淋浴管AE5956",
+                "key": "箭牌 (ARROW)浴室卫生间不锈钢软管花洒喷头软管(1.5米)淋浴管AE5956",
+                "icon": require("@/static/images/wujinImgs/rg1.jpg"),
                 "cat": 8,
-                "amount": 96
+                "amount": 700
             },
             {
-                "name": "耳机",
-                "key": "耳机",
-                "icon": require("@/static/images/imgs/sm2.jpg"),
+                "name": "栖之谷增压过滤多功能花洒手持家用淋浴喷头花洒+软管+底座+5个滤芯套装",
+                "key": "栖之谷增压过滤多功能花洒手持家用淋浴喷头花洒+软管+底座+5个滤芯套装",
+                "icon": require("@/static/images/wujinImgs/rg2.jpg"),
                 "cat": 8,
-                "amount": 85
+                "amount": 400
             },
             {
-                "name": "生活家电",
-                "key": "家电",
-                "icon": require("@/static/images/imgs/sm3.jpg"),
+                "name": "贝乐（Ballee）D92K卫生间淋浴软管花洒软管浴室黑色喷头软管防爆热水器软管",
+                "key": "贝乐（Ballee）D92K卫生间淋浴软管花洒软管浴室黑色喷头软管防爆热水器软管",
+                "icon": require("@/static/images/wujinImgs/rg3.jpg"),
                 "cat": 8,
                 "amount": 120
             },
             {
-                "name": "电风扇",
-                "key": "电风扇",
-                "icon": require("@/static/images/imgs/sm4.jpg"),
+                "name": "九牧（JOMOO）卫浴花洒软管淋雨洗浴喷头连接管子不锈钢通用浴室热水器水管配件 ",
+                "key": "九牧（JOMOO）卫浴花洒软管淋雨洗浴喷头连接管子不锈钢通用浴室热水器水管配件 ",
+                "icon": require("@/static/images/wujinImgs/rg4.jpg"),
                 "cat": 8,
-                "amount": 60
+                "amount": 600
             },
             {
-                "name": "电吹风",
-                "key": "电吹风",
-                "icon": require("@/static/images/imgs/sm5.jpg"),
+                "name": "泊恩尼（BOONEN） 花洒软管防爆浴室淋浴管喷头通用连接管热水器水管子浴霸配件大全 1.5米铜帽淋浴管",
+                "key": "泊恩尼（BOONEN） 花洒软管防爆浴室淋浴管喷头通用连接管热水器水管子浴霸配件大全 1.5米铜帽淋浴管",
+                "icon": require("@/static/images/wujinImgs/rg5.jpg"),
                 "cat": 8,
-                "amount": 134
+                "amount": 200
             },
             {
-                "name": "手机壳",
-                "key": "手机壳",
-                "icon": require("@/static/images/imgs/sm6.jpg"),
+                "name": "科固（KEGOO）小蛮腰增压手持花洒喷头套装 淋浴软管免打孔花洒三件套K220808",
+                "key": "科固（KEGOO）小蛮腰增压手持花洒喷头套装 淋浴软管免打孔花洒三件套K220808",
+                "icon": require("@/static/images/wujinImgs/rg6.jpg"),
                 "cat": 8,
-                "amount": 149
+                "amount": 300
             },
             {
-                "name": "榨汁机",
-                "key": "榨汁机",
-                "icon": require("@/static/images/imgs/sm7.jpg"),
+                "name": "莱尔诗丹（Larsd）手持花洒淋浴软管 铜双扣不锈钢软管 花洒莲蓬喷头管2米管LD230",
+                "key": "莱尔诗丹（Larsd）手持花洒淋浴软管 铜双扣不锈钢软管 花洒莲蓬喷头管2米管LD230",
+                "icon": require("@/static/images/wujinImgs/rg7.jpg"),
                 "cat": 8,
-                "amount": 109
+                "amount": 500
             },
             {
-                "name": "小家电",
-                "key": "小家电",
-                "icon": require("@/static/images/imgs/sm8.jpg"),
+                "name": "橱卫帮（CVBAB）2米花洒软管不锈钢淋浴软管 花洒莲蓬喷头管冷热水管通用4分CV230",
+                "key": "橱卫帮（CVBAB）2米花洒软管不锈钢淋浴软管 花洒莲蓬喷头管冷热水管通用4分CV230",
+                "icon": require("@/static/images/wujinImgs/rg8.jpg"),
                 "cat": 8,
-                "amount": 61
+                "amount": 200
             },
             {
-                "name": "数码电子",
-                "key": "数码",
-                "icon": require("@/static/images/imgs/sm9.jpg"),
+                "name": "四季沐歌（MICOE）增压花洒淋浴喷头套装加压浴室沐浴手持洗澡莲蓬头卫浴套装三件套",
+                "key": "四季沐歌（MICOE）增压花洒淋浴喷头套装加压浴室沐浴手持洗澡莲蓬头卫浴套装三件套",
+                "icon": require("@/static/images/wujinImgs/rg9.jpg"),
                 "cat": 8,
-                "amount": 76
+                "amount": 200
             },
             {
-                "name": "电饭锅",
-                "key": "电饭锅",
-                "icon": require("@/static/images/imgs/sm10.jpg"),
+                "name": "起点如日（QIDIANRURI）淋浴喷头花洒软管热水器不锈钢防爆软冷热水管子通用接口 1.5米不锈钢",
+                "key": "起点如日（QIDIANRURI）淋浴喷头花洒软管热水器不锈钢防爆软冷热水管子通用接口 1.5米不锈钢",
+                "icon": require("@/static/images/wujinImgs/rg10.jpg"),
                 "cat": 8,
-                "amount": 104
+                "amount": 300
             },
             {
-                "name": "手机支架",
-                "key": "手机支架",
-                "icon": require("@/static/images/imgs/sm11.jpg"),
+                "name": "德众6055花洒软管2米淋浴手持花洒喷头软管沐浴热水器水管",
+                "key": "德众6055花洒软管2米淋浴手持花洒喷头软管沐浴热水器水管",
+                "icon": require("@/static/images/wujinImgs/rg11.jpg"),
                 "cat": 8,
                 "amount": 160
             },
             {
-                "name": "剃须刀",
-                "key": "剃须刀",
-                "icon": require("@/static/images/imgs/sm12.jpg"),
+                "name": "潜水艇（Submarine）DG150 淋浴软管 花洒软管 1.5米防缠绕淋浴管喷头软管",
+                "key": "潜水艇（Submarine）DG150 淋浴软管 花洒软管 1.5米防缠绕淋浴管喷头软管",
+                "icon": require("@/static/images/wujinImgs/rg12.jpg"),
                 "cat": 8,
-                "amount": 167
+                "amount": 180
             },
             {
-                "name": "充电宝",
-                "key": "充电宝",
-                "icon": require("@/static/images/imgs/sm13.jpg"),
+                "name": "九牧（JOMOO） 花洒软管不锈钢双扣防缠绕淋浴软管浴室可伸缩水管淋雨喷头软管 不锈钢淋浴软管H2101",
+                "key": "九牧（JOMOO） 花洒软管不锈钢双扣防缠绕淋浴软管浴室可伸缩水管淋雨喷头软管 不锈钢淋浴软管H2101",
+                "icon": require("@/static/images/wujinImgs/rg13.jpg"),
                 "cat": 8,
-                "amount": 72
+                "amount": 100
             },
             {
-                "name": "手机配件",
-                "key": "手机配件",
-                "icon": require("@/static/images/imgs/sm14.jpg"),
+                "name": "箭牌（ARROW）手持花洒链 家用手持花洒喷头单个软管超柔花洒链AE5973CP",
+                "key": "箭牌（ARROW）手持花洒链 家用手持花洒喷头单个软管超柔花洒链AE5973CP",
+                "icon": require("@/static/images/wujinImgs/rg14.jpg"),
                 "cat": 8,
-                "amount": 102
+                "amount": 200
             }
         ]
     },
