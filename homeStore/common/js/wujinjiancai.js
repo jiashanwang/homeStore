@@ -583,578 +583,578 @@ export default[
             }
         ]
     },
-    {
-        "name": "浴室柜",
-        "foods": [
-            {
-                "name": "婴童服饰",
-                "key": "衣服",
-                "icon": require("@/static/images/imgs/my1.jpg"),
-                "cat": 2,
-                "amount": 144
-            },
-            {
-                "name": "玩具乐器",
-                "key": "玩具乐器",
-                "icon": require("@/static/images/imgs/my2.jpg"),
-                "cat": 2,
-                "amount": 71
-            },
-            {
-                "name": "尿不湿",
-                "key": "尿不湿",
-                "icon": require("@/static/images/imgs/my3.jpg"),
-                "cat": 2,
-                "amount": 123
-            },
-            {
-                "name": "安抚牙胶",
-                "key": "安抚牙胶",
-                "icon": require("@/static/images/imgs/my4.jpg"),
-                "cat": 2,
-                "amount": 52
-            },
-            {
-                "name": "奶瓶奶嘴",
-                "key": "奶瓶奶嘴",
-                "icon": require("@/static/images/imgs/my5.jpg"),
-                "cat": 2,
-                "amount": 153
-            },
-            {
-                "name": "孕妈用品",
-                "key": "孕妈用品",
-                "icon": require("@/static/images/imgs/my6.jpg"),
-                "cat": 2,
-                "amount": 140
-            },
-            {
-                "name": "宝宝用品",
-                "key": "宝宝用品",
-                "icon": require("@/static/images/imgs/my7.jpg"),
-                "cat": 2,
-                "amount": 106
-            },
-            {
-                "name": "婴童湿巾",
-                "key": "湿巾",
-                "icon": require("@/static/images/imgs/my8.jpg"),
-                "cat": 2,
-                "amount": 170
-            },
-            {
-                "name": "喂养洗护",
-                "key": "洗护",
-                "icon": require("@/static/images/imgs/my9.jpg"),
-                "cat": 2,
-                "amount": 130
-            },
-            {
-                "name": "婴童鞋靴",
-                "key": "童鞋",
-                "icon": require("@/static/images/imgs/my10.jpg"),
-                "cat": 2,
-                "amount": 192
-            },
-            {
-                "name": "口水巾",
-                "key": "口水巾",
-                "icon": require("@/static/images/imgs/my11.jpg"),
-                "cat": 2,
-                "amount": 136
-            },
-            {
-                "name": "营养辅食",
-                "key": "营养",
-                "icon": require("@/static/images/imgs/my12.jpg"),
-                "cat": 2,
-                "amount": 165
-            },
-            {
-                "name": "婴幼书籍",
-                "key": "书籍",
-                "icon": require("@/static/images/imgs/my13.jpg"),
-                "cat": 2,
-                "amount": 163
-            },
-            {
-                "name": "婴儿车",
-                "key": "婴儿车",
-                "icon": require("@/static/images/imgs/my14.jpg"),
-                "cat": 2,
-                "amount": 152
-            }
-        ]
-    },
-    {
-        "name": "疏通神器",
-        "foods": [
-            {
-                "name": "单肩包",
-                "key": "单肩包",
-                "icon": require("@/static/images/imgs/xb1.jpg"),
-                "cat": 0,
-                "amount": 102
-            },
-            {
-                "name": "斜挎包",
-                "key": "斜挎包",
-                "icon": require("@/static/images/imgs/xb2.jpg"),
-                "cat": 0,
-                "amount": 127
-            },
-            {
-                "name": "女包",
-                "key": "女包",
-                "icon": require("@/static/images/imgs/xb3.jpg"),
-                "cat": 0,
-                "amount": 90
-            },
-            {
-                "name": "男包",
-                "key": "男包",
-                "icon": require("@/static/images/imgs/xb4.jpg"),
-                "cat": 0,
-                "amount": 61
-            },
-            {
-                "name": "双肩包",
-                "key": "双肩包",
-                "icon": require("@/static/images/imgs/xb5.jpg"),
-                "cat": 0,
-                "amount": 115
-            },
-            {
-                "name": "小方包",
-                "key": "小方包",
-                "icon": require("@/static/images/imgs/xb6.jpg"),
-                "cat": 0,
-                "amount": 156
-            },
-            {
-                "name": "钱包",
-                "key": "钱包",
-                "icon": require("@/static/images/imgs/xb7.jpg"),
-                "cat": 0,
-                "amount": 181
-            },
-            {
-                "name": "旅行箱包",
-                "key": "旅行箱包",
-                "icon": require("@/static/images/imgs/xb8.jpg"),
-                "cat": 0,
-                "amount": 57
-            },
-            {
-                "name": "零钱包",
-                "key": "零钱包",
-                "icon": require("@/static/images/imgs/xb9.jpg"),
-                "cat": 0,
-                "amount": 148
-            },
-            {
-                "name": "手提包",
-                "key": "手提包",
-                "icon": require("@/static/images/imgs/xb10.jpg"),
-                "cat": 0,
-                "amount": 77
-            },
-            {
-                "name": "胸包",
-                "key": "胸包",
-                "icon": require("@/static/images/imgs/xb11.jpg"),
-                "cat": 0,
-                "amount": 63
-            }
-        ]
-    },
-    {
-        "name": "水枪/园林",
-        "foods": [
-            {
-                "name": "袜子",
-                "key": "袜子",
-                "icon": require("@/static/images/imgs/ny1.jpg"),
-                "cat": 11,
-                "amount": 149
-            },
-            {
-                "name": "吊带背心",
-                "key": "吊带背心",
-                "icon": require("@/static/images/imgs/ny2.jpg"),
-                "cat": 11,
-                "amount": 50
-            },
-            {
-                "name": "抹胸",
-                "key": "抹胸",
-                "icon": require("@/static/images/imgs/ny3.jpg"),
-                "cat": 11,
-                "amount": 55
-            },
-            {
-                "name": "内裤",
-                "key": "内裤",
-                "icon": require("@/static/images/imgs/ny4.jpg"),
-                "cat": 11,
-                "amount": 154
-            },
-            {
-                "name": "文胸",
-                "key": "文胸",
-                "icon": require("@/static/images/imgs/ny5.jpg"),
-                "cat": 11,
-                "amount": 176
-            },
-            {
-                "name": "文胸套装",
-                "key": "文胸套装",
-                "icon": require("@/static/images/imgs/ny6.jpg"),
-                "cat": 11,
-                "amount": 72
-            },
-            {
-                "name": "打底塑身",
-                "key": "打底塑身",
-                "icon": require("@/static/images/imgs/ny7.jpg"),
-                "cat": 11,
-                "amount": 152
-            },
-            {
-                "name": "家居服",
-                "key": "家居服",
-                "icon": require("@/static/images/imgs/ny8.jpg"),
-                "cat": 11,
-                "amount": 184
-            },
-            {
-                "name": "船袜",
-                "key": "船袜",
-                "icon": require("@/static/images/imgs/ny9.jpg"),
-                "cat": 11,
-                "amount": 144
-            },
-            {
-                "name": "情侣睡衣",
-                "key": "情侣睡衣",
-                "icon": require("@/static/images/imgs/ny10.jpg"),
-                "cat": 11,
-                "amount": 118
-            },
-            {
-                "name": "丝袜",
-                "key": "丝袜",
-                "icon": require("@/static/images/imgs/ny11.jpg"),
-                "cat": 11,
-                "amount": 145
-            }
-        ]
-    },
-    {
-        "name": "水表铜阀",
-        "foods": [
-            {
-                "name": "车市车品",
-                "key": "车市车品",
-                "icon": require("@/static/images/imgs/wy1.jpg"),
-                "cat": 7,
-                "amount": 154
-            },
-            {
-                "name": "办公文具",
-                "key": "办公文具",
-                "icon": require("@/static/images/imgs/wy2.jpg"),
-                "cat": 7,
-                "amount": 55
-            },
-            {
-                "name": "考试必备",
-                "key": "考试必备",
-                "icon": require("@/static/images/imgs/wy3.jpg"),
-                "cat": 7,
-                "amount": 84
-            },
-            {
-                "name": "笔记本",
-                "key": "笔记本",
-                "icon": require("@/static/images/imgs/wy4.jpg"),
-                "cat": 7,
-                "amount": 128
-            },
-            {
-                "name": "艺术礼品",
-                "key": "礼品",
-                "icon": require("@/static/images/imgs/wy5.jpg"),
-                "cat": 7,
-                "amount": 172
-            },
-            {
-                "name": "书写工具",
-                "key": "书写工具",
-                "icon": require("@/static/images/imgs/wy6.jpg"),
-                "cat": 7,
-                "amount": 53
-            },
-            {
-                "name": "车载电器",
-                "key": "车载电器",
-                "icon": require("@/static/images/imgs/wy7.jpg"),
-                "cat": 7,
-                "amount": 62
-            },
-            {
-                "name": "图书音像",
-                "key": "图书音像",
-                "icon": require("@/static/images/imgs/wy8.jpg"),
-                "cat": 7,
-                "amount": 69
-            },
-            {
-                "name": "画具画材",
-                "key": "画具画材",
-                "icon": require("@/static/images/imgs/wy9.jpg"),
-                "cat": 7,
-                "amount": 186
-            }
-        ]
-    },
-    {
-        "name": "五金日杂",
-        "foods": [
-            {
-                "name": "太阳镜",
-                "key": "太阳镜",
-                "icon": require("@/static/images/imgs/ps1.jpg"),
-                "cat": 0,
-                "amount": 52
-            },
-            {
-                "name": "皮带",
-                "key": "皮带",
-                "icon": require("@/static/images/imgs/ps2.jpg"),
-                "cat": 0,
-                "amount": 103
-            },
-            {
-                "name": "棒球帽",
-                "key": "棒球帽",
-                "icon": require("@/static/images/imgs/ps3.jpg"),
-                "cat": 0,
-                "amount": 160
-            },
-            {
-                "name": "手表",
-                "key": "手表",
-                "icon": require("@/static/images/imgs/ps4.jpg"),
-                "cat": 0,
-                "amount": 174
-            },
-            {
-                "name": "发饰",
-                "key": "发饰",
-                "icon": require("@/static/images/imgs/ps5.jpg"),
-                "cat": 0,
-                "amount": 99
-            },
-            {
-                "name": "项链",
-                "key": "项链",
-                "icon": require("@/static/images/imgs/ps6.jpg"),
-                "cat": 0,
-                "amount": 133
-            },
-            {
-                "name": "手饰",
-                "key": "手饰",
-                "icon": require("@/static/images/imgs/ps7.jpg"),
-                "cat": 0,
-                "amount": 71
-            },
-            {
-                "name": "耳环",
-                "key": "耳环",
-                "icon": require("@/static/images/imgs/ps8.jpg"),
-                "cat": 0,
-                "amount": 66
-            },
-            {
-                "name": "帽子丝巾",
-                "key": "帽子丝巾",
-                "icon": require("@/static/images/imgs/ps9.jpg"),
-                "cat": 0,
-                "amount": 164
-            },
-            {
-                "name": "眼镜墨镜",
-                "key": "眼镜墨镜",
-                "icon": require("@/static/images/imgs/ps10.jpg"),
-                "cat": 0,
-                "amount": 153
-            },
-            {
-                "name": "发带发箍",
-                "key": "发带发箍",
-                "icon": require("@/static/images/imgs/ps11.jpg"),
-                "cat": 0,
-                "amount": 89
-            }
-        ]
-    },
-    {
-        "name": "钢管件/铜接头",
-        "foods": [
-            {
-                "name": "家居饰品",
-                "key": "家居饰品",
-                "icon": require("@/static/images/imgs/jz1.jpg"),
-                "cat": 0,
-                "amount": 181
-            },
-            {
-                "name": "凉席",
-                "key": "凉席",
-                "icon": require("@/static/images/imgs/jz2.jpg"),
-                "cat": 0,
-                "amount": 84
-            },
-            {
-                "name": "背枕靠枕",
-                "key": "靠枕",
-                "icon": require("@/static/images/imgs/jz3.jpg"),
-                "cat": 0,
-                "amount": 79
-            },
-            {
-                "name": "床上用品",
-                "key": "床上用品",
-                "icon": require("@/static/images/imgs/jz4.jpg"),
-                "cat": 0,
-                "amount": 88
-            },
-            {
-                "name": "摆件",
-                "key": "摆件",
-                "icon": require("@/static/images/imgs/jz5.jpg"),
-                "cat": 0,
-                "amount": 182
-            },
-            {
-                "name": "四件套",
-                "key": "四件套",
-                "icon": require("@/static/images/imgs/jz6.jpg"),
-                "cat": 0,
-                "amount": 160
-            },
-            {
-                "name": "装饰品",
-                "key": "装饰品",
-                "icon": require("@/static/images/imgs/jz7.jpg"),
-                "cat": 0,
-                "amount": 103
-            },
-            {
-                "name": "卫浴用品",
-                "key": "卫浴",
-                "icon": require("@/static/images/imgs/jz8.jpg"),
-                "cat": 0,
-                "amount": 181
-            },
-            {
-                "name": "家居家装",
-                "key": "家具",
-                "icon": require("@/static/images/imgs/jz9.jpg"),
-                "cat": 0,
-                "amount": 119
-            },
-            {
-                "name": "蚊帐",
-                "key": "蚊帐",
-                "icon": require("@/static/images/imgs/jz10.jpg"),
-                "cat": 0,
-                "amount": 147
-            },
-            {
-                "name": "墙纸贴纸",
-                "key": "墙纸",
-                "icon": require("@/static/images/imgs/jz11.jpg"),
-                "cat": 0,
-                "amount": 135
-            },
-            {
-                "name": "空调被",
-                "key": "空调被",
-                "icon": require("@/static/images/imgs/jz12.jpg"),
-                "cat": 0,
-                "amount": 81
-            }
-        ]
-    },
-    {
-        "name": "煤气罐/煤气阀",
-        "foods": [
-            {
-                "name": "游泳装备",
-                "key": "游泳",
-                "icon": require("@/static/images/imgs/hw1.jpg"),
-                "cat": 0,
-                "amount": 76
-            },
-            {
-                "name": "泳镜",
-                "key": "泳镜",
-                "icon": require("@/static/images/imgs/hw2.jpg"),
-                "cat": 0,
-                "amount": 198
-            },
-            {
-                "name": "户外装备",
-                "key": "户外",
-                "icon": require("@/static/images/imgs/hw3.jpg"),
-                "cat": 0,
-                "amount": 175
-            },
-            {
-                "name": "健身服饰",
-                "key": "健身",
-                "icon": require("@/static/images/imgs/hw4.jpg"),
-                "cat": 0,
-                "amount": 115
-            },
-            {
-                "name": "泳衣",
-                "key": "泳衣",
-                "icon": require("@/static/images/imgs/hw5.jpg"),
-                "cat": 0,
-                "amount": 111
-            },
-            {
-                "name": "瑜伽垫",
-                "key": "瑜伽垫",
-                "icon": require("@/static/images/imgs/hw6.jpg"),
-                "cat": 0,
-                "amount": 108
-            },
-            {
-                "name": "瑜伽用品",
-                "key": "瑜伽",
-                "icon": require("@/static/images/imgs/hw7.jpg"),
-                "cat": 0,
-                "amount": 195
-            },
-            {
-                "name": "健身装备",
-                "key": "健身",
-                "icon": require("@/static/images/imgs/hw8.jpg"),
-                "cat": 0,
-                "amount": 55
-            },
-            {
-                "name": "球迷用品",
-                "key": "球迷",
-                "icon": require("@/static/images/imgs/hw9.jpg"),
-                "cat": 0,
-                "amount": 86
-            }
-        ]
-    }
+    // {
+    //     "name": "浴室柜",
+    //     "foods": [
+    //         {
+    //             "name": "婴童服饰",
+    //             "key": "衣服",
+    //             "icon": require("@/static/images/imgs/my1.jpg"),
+    //             "cat": 2,
+    //             "amount": 144
+    //         },
+    //         {
+    //             "name": "玩具乐器",
+    //             "key": "玩具乐器",
+    //             "icon": require("@/static/images/imgs/my2.jpg"),
+    //             "cat": 2,
+    //             "amount": 71
+    //         },
+    //         {
+    //             "name": "尿不湿",
+    //             "key": "尿不湿",
+    //             "icon": require("@/static/images/imgs/my3.jpg"),
+    //             "cat": 2,
+    //             "amount": 123
+    //         },
+    //         {
+    //             "name": "安抚牙胶",
+    //             "key": "安抚牙胶",
+    //             "icon": require("@/static/images/imgs/my4.jpg"),
+    //             "cat": 2,
+    //             "amount": 52
+    //         },
+    //         {
+    //             "name": "奶瓶奶嘴",
+    //             "key": "奶瓶奶嘴",
+    //             "icon": require("@/static/images/imgs/my5.jpg"),
+    //             "cat": 2,
+    //             "amount": 153
+    //         },
+    //         {
+    //             "name": "孕妈用品",
+    //             "key": "孕妈用品",
+    //             "icon": require("@/static/images/imgs/my6.jpg"),
+    //             "cat": 2,
+    //             "amount": 140
+    //         },
+    //         {
+    //             "name": "宝宝用品",
+    //             "key": "宝宝用品",
+    //             "icon": require("@/static/images/imgs/my7.jpg"),
+    //             "cat": 2,
+    //             "amount": 106
+    //         },
+    //         {
+    //             "name": "婴童湿巾",
+    //             "key": "湿巾",
+    //             "icon": require("@/static/images/imgs/my8.jpg"),
+    //             "cat": 2,
+    //             "amount": 170
+    //         },
+    //         {
+    //             "name": "喂养洗护",
+    //             "key": "洗护",
+    //             "icon": require("@/static/images/imgs/my9.jpg"),
+    //             "cat": 2,
+    //             "amount": 130
+    //         },
+    //         {
+    //             "name": "婴童鞋靴",
+    //             "key": "童鞋",
+    //             "icon": require("@/static/images/imgs/my10.jpg"),
+    //             "cat": 2,
+    //             "amount": 192
+    //         },
+    //         {
+    //             "name": "口水巾",
+    //             "key": "口水巾",
+    //             "icon": require("@/static/images/imgs/my11.jpg"),
+    //             "cat": 2,
+    //             "amount": 136
+    //         },
+    //         {
+    //             "name": "营养辅食",
+    //             "key": "营养",
+    //             "icon": require("@/static/images/imgs/my12.jpg"),
+    //             "cat": 2,
+    //             "amount": 165
+    //         },
+    //         {
+    //             "name": "婴幼书籍",
+    //             "key": "书籍",
+    //             "icon": require("@/static/images/imgs/my13.jpg"),
+    //             "cat": 2,
+    //             "amount": 163
+    //         },
+    //         {
+    //             "name": "婴儿车",
+    //             "key": "婴儿车",
+    //             "icon": require("@/static/images/imgs/my14.jpg"),
+    //             "cat": 2,
+    //             "amount": 152
+    //         }
+    //     ]
+    // },
+    // {
+    //     "name": "疏通神器",
+    //     "foods": [
+    //         {
+    //             "name": "单肩包",
+    //             "key": "单肩包",
+    //             "icon": require("@/static/images/imgs/xb1.jpg"),
+    //             "cat": 0,
+    //             "amount": 102
+    //         },
+    //         {
+    //             "name": "斜挎包",
+    //             "key": "斜挎包",
+    //             "icon": require("@/static/images/imgs/xb2.jpg"),
+    //             "cat": 0,
+    //             "amount": 127
+    //         },
+    //         {
+    //             "name": "女包",
+    //             "key": "女包",
+    //             "icon": require("@/static/images/imgs/xb3.jpg"),
+    //             "cat": 0,
+    //             "amount": 90
+    //         },
+    //         {
+    //             "name": "男包",
+    //             "key": "男包",
+    //             "icon": require("@/static/images/imgs/xb4.jpg"),
+    //             "cat": 0,
+    //             "amount": 61
+    //         },
+    //         {
+    //             "name": "双肩包",
+    //             "key": "双肩包",
+    //             "icon": require("@/static/images/imgs/xb5.jpg"),
+    //             "cat": 0,
+    //             "amount": 115
+    //         },
+    //         {
+    //             "name": "小方包",
+    //             "key": "小方包",
+    //             "icon": require("@/static/images/imgs/xb6.jpg"),
+    //             "cat": 0,
+    //             "amount": 156
+    //         },
+    //         {
+    //             "name": "钱包",
+    //             "key": "钱包",
+    //             "icon": require("@/static/images/imgs/xb7.jpg"),
+    //             "cat": 0,
+    //             "amount": 181
+    //         },
+    //         {
+    //             "name": "旅行箱包",
+    //             "key": "旅行箱包",
+    //             "icon": require("@/static/images/imgs/xb8.jpg"),
+    //             "cat": 0,
+    //             "amount": 57
+    //         },
+    //         {
+    //             "name": "零钱包",
+    //             "key": "零钱包",
+    //             "icon": require("@/static/images/imgs/xb9.jpg"),
+    //             "cat": 0,
+    //             "amount": 148
+    //         },
+    //         {
+    //             "name": "手提包",
+    //             "key": "手提包",
+    //             "icon": require("@/static/images/imgs/xb10.jpg"),
+    //             "cat": 0,
+    //             "amount": 77
+    //         },
+    //         {
+    //             "name": "胸包",
+    //             "key": "胸包",
+    //             "icon": require("@/static/images/imgs/xb11.jpg"),
+    //             "cat": 0,
+    //             "amount": 63
+    //         }
+    //     ]
+    // },
+    // {
+    //     "name": "水枪/园林",
+    //     "foods": [
+    //         {
+    //             "name": "袜子",
+    //             "key": "袜子",
+    //             "icon": require("@/static/images/imgs/ny1.jpg"),
+    //             "cat": 11,
+    //             "amount": 149
+    //         },
+    //         {
+    //             "name": "吊带背心",
+    //             "key": "吊带背心",
+    //             "icon": require("@/static/images/imgs/ny2.jpg"),
+    //             "cat": 11,
+    //             "amount": 50
+    //         },
+    //         {
+    //             "name": "抹胸",
+    //             "key": "抹胸",
+    //             "icon": require("@/static/images/imgs/ny3.jpg"),
+    //             "cat": 11,
+    //             "amount": 55
+    //         },
+    //         {
+    //             "name": "内裤",
+    //             "key": "内裤",
+    //             "icon": require("@/static/images/imgs/ny4.jpg"),
+    //             "cat": 11,
+    //             "amount": 154
+    //         },
+    //         {
+    //             "name": "文胸",
+    //             "key": "文胸",
+    //             "icon": require("@/static/images/imgs/ny5.jpg"),
+    //             "cat": 11,
+    //             "amount": 176
+    //         },
+    //         {
+    //             "name": "文胸套装",
+    //             "key": "文胸套装",
+    //             "icon": require("@/static/images/imgs/ny6.jpg"),
+    //             "cat": 11,
+    //             "amount": 72
+    //         },
+    //         {
+    //             "name": "打底塑身",
+    //             "key": "打底塑身",
+    //             "icon": require("@/static/images/imgs/ny7.jpg"),
+    //             "cat": 11,
+    //             "amount": 152
+    //         },
+    //         {
+    //             "name": "家居服",
+    //             "key": "家居服",
+    //             "icon": require("@/static/images/imgs/ny8.jpg"),
+    //             "cat": 11,
+    //             "amount": 184
+    //         },
+    //         {
+    //             "name": "船袜",
+    //             "key": "船袜",
+    //             "icon": require("@/static/images/imgs/ny9.jpg"),
+    //             "cat": 11,
+    //             "amount": 144
+    //         },
+    //         {
+    //             "name": "情侣睡衣",
+    //             "key": "情侣睡衣",
+    //             "icon": require("@/static/images/imgs/ny10.jpg"),
+    //             "cat": 11,
+    //             "amount": 118
+    //         },
+    //         {
+    //             "name": "丝袜",
+    //             "key": "丝袜",
+    //             "icon": require("@/static/images/imgs/ny11.jpg"),
+    //             "cat": 11,
+    //             "amount": 145
+    //         }
+    //     ]
+    // },
+    // {
+    //     "name": "水表铜阀",
+    //     "foods": [
+    //         {
+    //             "name": "车市车品",
+    //             "key": "车市车品",
+    //             "icon": require("@/static/images/imgs/wy1.jpg"),
+    //             "cat": 7,
+    //             "amount": 154
+    //         },
+    //         {
+    //             "name": "办公文具",
+    //             "key": "办公文具",
+    //             "icon": require("@/static/images/imgs/wy2.jpg"),
+    //             "cat": 7,
+    //             "amount": 55
+    //         },
+    //         {
+    //             "name": "考试必备",
+    //             "key": "考试必备",
+    //             "icon": require("@/static/images/imgs/wy3.jpg"),
+    //             "cat": 7,
+    //             "amount": 84
+    //         },
+    //         {
+    //             "name": "笔记本",
+    //             "key": "笔记本",
+    //             "icon": require("@/static/images/imgs/wy4.jpg"),
+    //             "cat": 7,
+    //             "amount": 128
+    //         },
+    //         {
+    //             "name": "艺术礼品",
+    //             "key": "礼品",
+    //             "icon": require("@/static/images/imgs/wy5.jpg"),
+    //             "cat": 7,
+    //             "amount": 172
+    //         },
+    //         {
+    //             "name": "书写工具",
+    //             "key": "书写工具",
+    //             "icon": require("@/static/images/imgs/wy6.jpg"),
+    //             "cat": 7,
+    //             "amount": 53
+    //         },
+    //         {
+    //             "name": "车载电器",
+    //             "key": "车载电器",
+    //             "icon": require("@/static/images/imgs/wy7.jpg"),
+    //             "cat": 7,
+    //             "amount": 62
+    //         },
+    //         {
+    //             "name": "图书音像",
+    //             "key": "图书音像",
+    //             "icon": require("@/static/images/imgs/wy8.jpg"),
+    //             "cat": 7,
+    //             "amount": 69
+    //         },
+    //         {
+    //             "name": "画具画材",
+    //             "key": "画具画材",
+    //             "icon": require("@/static/images/imgs/wy9.jpg"),
+    //             "cat": 7,
+    //             "amount": 186
+    //         }
+    //     ]
+    // },
+    // {
+    //     "name": "五金日杂",
+    //     "foods": [
+    //         {
+    //             "name": "太阳镜",
+    //             "key": "太阳镜",
+    //             "icon": require("@/static/images/imgs/ps1.jpg"),
+    //             "cat": 0,
+    //             "amount": 52
+    //         },
+    //         {
+    //             "name": "皮带",
+    //             "key": "皮带",
+    //             "icon": require("@/static/images/imgs/ps2.jpg"),
+    //             "cat": 0,
+    //             "amount": 103
+    //         },
+    //         {
+    //             "name": "棒球帽",
+    //             "key": "棒球帽",
+    //             "icon": require("@/static/images/imgs/ps3.jpg"),
+    //             "cat": 0,
+    //             "amount": 160
+    //         },
+    //         {
+    //             "name": "手表",
+    //             "key": "手表",
+    //             "icon": require("@/static/images/imgs/ps4.jpg"),
+    //             "cat": 0,
+    //             "amount": 174
+    //         },
+    //         {
+    //             "name": "发饰",
+    //             "key": "发饰",
+    //             "icon": require("@/static/images/imgs/ps5.jpg"),
+    //             "cat": 0,
+    //             "amount": 99
+    //         },
+    //         {
+    //             "name": "项链",
+    //             "key": "项链",
+    //             "icon": require("@/static/images/imgs/ps6.jpg"),
+    //             "cat": 0,
+    //             "amount": 133
+    //         },
+    //         {
+    //             "name": "手饰",
+    //             "key": "手饰",
+    //             "icon": require("@/static/images/imgs/ps7.jpg"),
+    //             "cat": 0,
+    //             "amount": 71
+    //         },
+    //         {
+    //             "name": "耳环",
+    //             "key": "耳环",
+    //             "icon": require("@/static/images/imgs/ps8.jpg"),
+    //             "cat": 0,
+    //             "amount": 66
+    //         },
+    //         {
+    //             "name": "帽子丝巾",
+    //             "key": "帽子丝巾",
+    //             "icon": require("@/static/images/imgs/ps9.jpg"),
+    //             "cat": 0,
+    //             "amount": 164
+    //         },
+    //         {
+    //             "name": "眼镜墨镜",
+    //             "key": "眼镜墨镜",
+    //             "icon": require("@/static/images/imgs/ps10.jpg"),
+    //             "cat": 0,
+    //             "amount": 153
+    //         },
+    //         {
+    //             "name": "发带发箍",
+    //             "key": "发带发箍",
+    //             "icon": require("@/static/images/imgs/ps11.jpg"),
+    //             "cat": 0,
+    //             "amount": 89
+    //         }
+    //     ]
+    // },
+    // {
+    //     "name": "钢管件/铜接头",
+    //     "foods": [
+    //         {
+    //             "name": "家居饰品",
+    //             "key": "家居饰品",
+    //             "icon": require("@/static/images/imgs/jz1.jpg"),
+    //             "cat": 0,
+    //             "amount": 181
+    //         },
+    //         {
+    //             "name": "凉席",
+    //             "key": "凉席",
+    //             "icon": require("@/static/images/imgs/jz2.jpg"),
+    //             "cat": 0,
+    //             "amount": 84
+    //         },
+    //         {
+    //             "name": "背枕靠枕",
+    //             "key": "靠枕",
+    //             "icon": require("@/static/images/imgs/jz3.jpg"),
+    //             "cat": 0,
+    //             "amount": 79
+    //         },
+    //         {
+    //             "name": "床上用品",
+    //             "key": "床上用品",
+    //             "icon": require("@/static/images/imgs/jz4.jpg"),
+    //             "cat": 0,
+    //             "amount": 88
+    //         },
+    //         {
+    //             "name": "摆件",
+    //             "key": "摆件",
+    //             "icon": require("@/static/images/imgs/jz5.jpg"),
+    //             "cat": 0,
+    //             "amount": 182
+    //         },
+    //         {
+    //             "name": "四件套",
+    //             "key": "四件套",
+    //             "icon": require("@/static/images/imgs/jz6.jpg"),
+    //             "cat": 0,
+    //             "amount": 160
+    //         },
+    //         {
+    //             "name": "装饰品",
+    //             "key": "装饰品",
+    //             "icon": require("@/static/images/imgs/jz7.jpg"),
+    //             "cat": 0,
+    //             "amount": 103
+    //         },
+    //         {
+    //             "name": "卫浴用品",
+    //             "key": "卫浴",
+    //             "icon": require("@/static/images/imgs/jz8.jpg"),
+    //             "cat": 0,
+    //             "amount": 181
+    //         },
+    //         {
+    //             "name": "家居家装",
+    //             "key": "家具",
+    //             "icon": require("@/static/images/imgs/jz9.jpg"),
+    //             "cat": 0,
+    //             "amount": 119
+    //         },
+    //         {
+    //             "name": "蚊帐",
+    //             "key": "蚊帐",
+    //             "icon": require("@/static/images/imgs/jz10.jpg"),
+    //             "cat": 0,
+    //             "amount": 147
+    //         },
+    //         {
+    //             "name": "墙纸贴纸",
+    //             "key": "墙纸",
+    //             "icon": require("@/static/images/imgs/jz11.jpg"),
+    //             "cat": 0,
+    //             "amount": 135
+    //         },
+    //         {
+    //             "name": "空调被",
+    //             "key": "空调被",
+    //             "icon": require("@/static/images/imgs/jz12.jpg"),
+    //             "cat": 0,
+    //             "amount": 81
+    //         }
+    //     ]
+    // },
+    // {
+    //     "name": "煤气罐/煤气阀",
+    //     "foods": [
+    //         {
+    //             "name": "游泳装备",
+    //             "key": "游泳",
+    //             "icon": require("@/static/images/imgs/hw1.jpg"),
+    //             "cat": 0,
+    //             "amount": 76
+    //         },
+    //         {
+    //             "name": "泳镜",
+    //             "key": "泳镜",
+    //             "icon": require("@/static/images/imgs/hw2.jpg"),
+    //             "cat": 0,
+    //             "amount": 198
+    //         },
+    //         {
+    //             "name": "户外装备",
+    //             "key": "户外",
+    //             "icon": require("@/static/images/imgs/hw3.jpg"),
+    //             "cat": 0,
+    //             "amount": 175
+    //         },
+    //         {
+    //             "name": "健身服饰",
+    //             "key": "健身",
+    //             "icon": require("@/static/images/imgs/hw4.jpg"),
+    //             "cat": 0,
+    //             "amount": 115
+    //         },
+    //         {
+    //             "name": "泳衣",
+    //             "key": "泳衣",
+    //             "icon": require("@/static/images/imgs/hw5.jpg"),
+    //             "cat": 0,
+    //             "amount": 111
+    //         },
+    //         {
+    //             "name": "瑜伽垫",
+    //             "key": "瑜伽垫",
+    //             "icon": require("@/static/images/imgs/hw6.jpg"),
+    //             "cat": 0,
+    //             "amount": 108
+    //         },
+    //         {
+    //             "name": "瑜伽用品",
+    //             "key": "瑜伽",
+    //             "icon": require("@/static/images/imgs/hw7.jpg"),
+    //             "cat": 0,
+    //             "amount": 195
+    //         },
+    //         {
+    //             "name": "健身装备",
+    //             "key": "健身",
+    //             "icon": require("@/static/images/imgs/hw8.jpg"),
+    //             "cat": 0,
+    //             "amount": 55
+    //         },
+    //         {
+    //             "name": "球迷用品",
+    //             "key": "球迷",
+    //             "icon": require("@/static/images/imgs/hw9.jpg"),
+    //             "cat": 0,
+    //             "amount": 86
+    //         }
+    //     ]
+    // }
 ]

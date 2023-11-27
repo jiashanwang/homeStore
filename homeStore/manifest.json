@@ -73,7 +73,7 @@
         "router" : {
             "base" : "./"
         },
-        "title" : "百货优选",
+        "title" : "庭安五金",
         "optimization" : {
             "treeShaking" : {
                 "enable" : true
