@@ -23,6 +23,7 @@
 						<view class="item-container">
 							<view class="thumb-box" v-for="(item1, index1) in item.foods" :key="index1" @tap="goToCardDetail(item1)">
 								<image class="item-menu-image" :src="item1.icon" mode=""></image>
+								<view class="item-menu-name" style="color:#ff0000;"><span style="color:#ff0000;">￥</span>{{item1.amount}}</view>
 								<view class="item-menu-name">{{item1.name}}</view>
 							</view>
 						</view>
@@ -33,8 +34,8 @@
 	</view>
 </template>
 <script>
-	// import classifyData from '@/common/js/classify.data.js';
-	import classifyData from '@/common/js/wujinjiancai.js';
+	import classifyData from '@/common/js/classify.data.js';
+	// import classifyData from '@/common/js/wujinjiancai.js';
 	export default {
 		data() {
 			return {
@@ -53,12 +54,32 @@
 			}
 		},
 		onLoad() {
-			
+			this.getGoodsList();
 		},
 		onReady() {
 			this.getMenuItemTop()
 		},
 		methods: {
+			getGoodsList(){
+				uni.request({
+					url: 'https://www.atwillpay.cn/paybackcmj/miniprogram/getBaiHuoList',
+					// url:"http://192.168.10.101:5002/paybackcmj/miniprogram/getBaiHuoList",
+					data: {
+					},
+					method: "POST",
+					success: (res) => {
+						let result = res.data;
+						if (result.code == 0) {
+							// 成功
+						} else {
+							uni.showToast({
+								title: "token获取失败",
+								icon: 'none'
+							});
+						}
+					}
+				});
+			},
 			getRandom(){
 				const min = 50;
 				const max = 200;

@@ -43,7 +43,7 @@
 				<u-cell title="我的卡券" size="20" clickable="true" :isLink="true" rightIconStyle="font-size:34rpx;">
 					<u-icon slot="icon" size="26" name="coupon" color="#1596db"></u-icon>
 				</u-cell>
-				<u-cell title="联系客服" clickable="true" :isLink="true" rightIconStyle="font-size:34rpx;">
+				<u-cell title="收获地址" clickable="true" :isLink="true" rightIconStyle="font-size:34rpx;">
 					<u-icon slot="icon" size="26" name="server-man" color="#2979ff"></u-icon>
 				</u-cell>
 				<u-cell title="售后电话" size="20" clickable="true" :isLink="true" rightIconStyle="font-size:34rpx;">
@@ -65,7 +65,7 @@
 				src: 'https://cdn.uviewui.com/uview/album/1.jpg',
 				size: '50',
 				bgColor: '#fcbd71',
-				nickName:"立即登陆",
+				nickName:"游客",
 				loginType:"unLogin",//unlogin 未登录
 				readyPayUrl:require("@/static/images/readyPay.png"),
 				readySendUrl:require("@/static/images/readySend.png"),
@@ -105,8 +105,8 @@
 		padding: 40px 0;
 	}
 	.noactive {
-	  color:#ffffff;
-	  font-size:32rpx;
+	  // color:#ffffff;
+	  font-size:26rpx;
 	}
 	.line-operate{
 		width:100%;

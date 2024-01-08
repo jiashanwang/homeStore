@@ -3,8 +3,8 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "",
-				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页",
+				// "navigationStyle": "custom",
 				"enablePullDownRefresh": true
 			}
 		}
@@ -23,7 +23,7 @@
             "style" :                                                                                    
             {
                "navigationBarTitleText": "订单列表",
-			   "navigationStyle": "custom",
+			   // "navigationStyle": "custom",
                "enablePullDownRefresh": false
             }
             
@@ -81,7 +81,13 @@
 				"pagePath": "pages/index/index",
 				"iconPath": "static/images/shouye.png",
 				"selectedIconPath": "static/images/shouye1.png",
-				"text": "精彩生活"
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/images/cart.png",
+				"selectedIconPath": "static/images/cart1.png",
+				"text": "购物车"
 			},
 			{
 				"pagePath": "pages/my/my",

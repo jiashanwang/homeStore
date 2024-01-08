@@ -73,7 +73,7 @@
         "router" : {
             "base" : "./"
         },
-        "title" : "庭安五金",
+        "title" : "如风商行",
         "optimization" : {
             "treeShaking" : {
                 "enable" : true

@@ -26,7 +26,7 @@
 	  </view>
 	  <!-- <view class="line-operate-mid"></view> -->
 	  <u-gap height="10" bg-color="#f4f4f5"></u-gap>
-	  <view class="buy-title pay-box u-font-xl u-padding-10">支付方式</view>
+<!-- 	  <view class="buy-title pay-box u-font-xl u-padding-10">支付方式</view>
 	  <view class="u-flex-row u-row-left pay-type u-padding-10 u-font-lg">
 			<u-radio-group v-model="value" @change="radioGroupChange">
 				<u-radio 
@@ -41,7 +41,7 @@
 					{{item.name}}
 				</u-radio>
 			</u-radio-group>
-	  </view>
+	  </view> -->
 	  <u-gap height="10" bg-color="#f4f4f5"></u-gap>
 	 <view class="total-wrap product-total u-padding-10">
 	    <view class="title u-font-xl">商品合计</view>
@@ -132,6 +132,7 @@
 					// appid:"2021004123670168", // 驰顺网络
 					// appid:"2021004123662852",// 驰顺百货
 					appid:"2021004125645133",// 庭安网络 庭行百货
+					// appid:"2021004126692216",// 如风五金商行
 					// notifyUrl:"",
 					notify_url_ali:"",
 					goodsName: this.orderData.name
